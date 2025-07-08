@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Mask of Uroboros",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Draw a card, then Discard a card and Spawn 2 Crows on your Melee row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Blood Eagle",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nDamage an enemy unit by 2, then play a Warrior from your deck with a provision cost of 7 or less.\nDeathblow: Play a Warrior from your deck instead.\nBloodthirst 3: Always trigger the Deathblow ability.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Eist Tuirseach",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Veteran.\nOrder: Draw a card, then Discard a card.\nBloodthirst 3: Gain Zeal.\nWhenever you Discard a non-Neutral unit during your turn, Summon it from your graveyard to this row.\nCounter: 2\nDevotion: Also works whenever a non-Neutral unit enters your graveyard during your turn.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Harald an Craite",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Play a bronze Warrior from your graveyard and give it Doomed.\nDevotion: At the start of the third round, evolve to Harald the Cripple.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Harald the Cripple",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Veil.\nDeploy: Play a bronze Warrior from your graveyard and give it Doomed.\nWhenever you play a Warrior, damage a random enemy unit by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Crach an Craite",
+    "tags": "Human, Pirate, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "TODO",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Cerys an Craite",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "King Bran",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Veteran.\nDeploy: Boost self by 1 whenever excess damage is dealt to enemy units.\nAt the start of the game, trigger the Veteran ability of your units.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Tyrggvi Tuirseach",
+    "tags": "Human, Pirate, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Veteran.\nDeploy: Damage an enemy unit by its base power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Hjalmar an Craite",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Banish a unit in your graveyard and damage an enemy unit by its power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Skjordal Drummond",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Devotion: Veteran.\nDeploy: Damage an enemy unit by Skjordal's base power.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Madman Lugos",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy (Melee): Damage an enemy unit by twice the number of damaged enemies.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svanrige Tuirseach",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost self by the base power of the last non-Neutral unit that went to your graveyard this round.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Draig Bon-Dhu",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Move a bronze Warrior from your deck to your graveyard.\nZeal. Order: Trigger the Veteran ability of a unit in your graveyard.\nCooldown: 1",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "An Craite Raiders",
+    "tags": "Human, Pirate, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Veteran.\nDeploy (Bloodthirst 3): Gain Zeal.\nOrder: Damage a unit by 2.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "War of Clans",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 2.\nDeathblow: Play a up to 2 provision cost Warrior from your graveyard and give it Doomed.\nDevotion: Always trigger the Deathblow ability.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Drummond Queensguard",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Drummond Shieldmaiden",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Highland Warlord",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Veteran.\nDeploy: Increase the damage of your Raid cards by 1 for the rest of the game.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "An Craite Warrior",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Give an enemy unit Bleeding (3). If played from the graveyard, damage an enemy unit by 3 instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Brokvar Archer",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Ranged): Damage an enemy unit by 1 plus the number of damaged units your opponent controls.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Brokvar Warrior",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Damage an enemy unit by 3.\nIf the target is damaged, repeat the Deploy ability with a different target and decrease the damage by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Tuirseach Invader",
+    "tags": "Human, Pirate, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Veil.\nVeteran.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Tuirseach Skirmisher",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "When this unit is Discarded, Summon it from your graveyard to your Melee row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Endless Voyage",
+    "tags": "Scenario, Cursed",
+    "type": "artifact",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Lippy Gudmund",
+    "tags": "Human, Pirate",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy (Ranged): Swap your graveyard with your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Morkvarg: Heart of Terror",
+    "tags": "Human, Pirate",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Damage an enemy unit by 1. Repeat until the target is damaged.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Bjorn Stormursson",
+    "tags": "Human, Cursed, Pirate",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Terror of the Seas",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Morkvarg",
+    "tags": "Beast, Cursed, Pirate",
+    "type": "unit",
+    "strength": 6,
+    "ability": "When this unit enters your graveyard during the round, Summon it to your Melee row and give it Doomed.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Abordage",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 2.\nBloodthirst 2: Also play a Pirate from your hand, then draw a card.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Dimun Pirate",
+    "tags": "Human, Pirate",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Deploy: Move the top card from your deck to your graveyard. If you control a Ship, cancel this ability.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Drummond Warmonger",
+    "tags": "Human, Pirate",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage 3 adjacent enemies by 1.\nBloodthirst 4: Damage all enemies on a row by 1 instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Seagull",
+    "tags": "Beast, Cursed, Pirate",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Bloodthirst 5: Summon self from your deck to your Ranged row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Kambi",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+    {
+    "name": "Birna Bran",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 6,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Coral",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Zeal. Order: Draw a card, then Discard a card.\nWhenever you Discard a card, damage a random enemy unit by 2.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Heymaey Skald",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Ranged): Draw a card, then Discard a card.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Coral",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Damage all damaged enemy units by 1, then damage all enemy units by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Naval Supremacy",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a bronze Skellige Ship from your deck and Spawn a Cataclysm in enemy row for 1 turn.\n",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "An Craite Longship",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Melee: Whenever your opponent plays a unit on their side of the battlefield, damage it by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Funeral Boat",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever a card enters either graveyard during your turn, damage a random enemy unit by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+    {
+    "name": "Whale Harpooner",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Move an enemy unit to the other row, then damage it by the number of units on that row.\n",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  }
+]

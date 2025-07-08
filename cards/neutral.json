@@ -1,0 +1,663 @@
+[
+  {
+    "name": "Tactical Advantage",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Boost an allied unit by 6.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Crystal Skull",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Boost an allied unit by 5 and give it Veil.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Cursed Scroll",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Draw a card of your choice, then move a card from your hand to the bottom of your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Magic Lamp",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Transform into Lamp Djinn.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Oneiromancy",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nPlay any card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Korathi Heatwave",
+    "tags": "",
+    "type": "special",
+    "strength": null,
+    "ability": "Banish a unit or an artifact.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Roach",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "When you play a gold card, Summon self from your deck to a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Ciri: Dash",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Geralt of Rivia",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Destroy an enemy unit with 9 or more power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Alzur's Double-Cross",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Play the highest-power unit from your deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Chironex",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage an enemy unit by 3. If you control Unicorn, damage it by 6 instead. If you have Unicorn in your hand, also play it, then draw a card.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Unicorn",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Boost an allied unit by 3. If you control Chironex, boost it by 6 instead. If you have Chironex in your hand, also play it, then draw a card.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Ihuarraquax",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy (Melee): Each player Summons the highest-provision cost unit from their deck to their Melee row.\nDeploy (Ranged): Each player Summons the lowest-provision cost unit from their deck to their Ranged row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Yennefer of Vengerberg",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy (Melee): Damage all other units by 2.\nDeploy (Ranged): Boost all other units by 2.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Musicians of Blaviken",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 2,
+    "ability": "If you have no other 0-provision cost cards in your starting deck, start on your Ranged row.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Olgierd: Immortal",
+    "tags": "Human, Cursed, Bandit",
+    "type": "unit",
+    "strength": 10,
+    "ability": "This card's power cannot be changed by other abilities.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Renfri",
+    "tags": "Human, Cursed, Bandit",
+    "type": "unit",
+    "strength": 7,
+    "ability": ".",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Royal Decree",
+    "tags": "Tactic, Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a unit from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Vigo's Muzzle",
+    "tags": "Spell, Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Lock an enemy unit with 6 or less power and Seize it.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Scorch",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Destroy the highest-power unit.\nInitiative: Destroy all highest-power units instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Pellar",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee): Purify a unit.\nDeploy (Ranged): Banish a card from your opponent's graveyard.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Villentretenmerth",
+    "tags": "Dragon",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Lineage.\nTimer 2: Destroy the highest-power unit(s) on the battlefield, excluding Dragons you control.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Myrgtabrakke",
+    "tags": "Dragon",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Lineage.\nDeploy: Draw a Dragon, then move a card from your hand to the bottom of your deck.\nOrder: Damage an enemy unit by the number of Lineage.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Ocvist",
+    "tags": "Dragon",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Lineage.\nDeploy: Spawn Cataclysm on the opposite row for 2 turns.\nTimer 3: Damage all enemy units by 1.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Renew",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a unit from your graveyard with a provision cost of 10 or less and give it Doomed.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Aerondight",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nDamage an enemy unit by the value of the Advantage, then boost the lowest-power allied unit by the excess damage dealt.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Dandelion: Poet",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Draw a card, then play a card.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Regis",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Damage all units on an enemy row by 1.\nIf any were destroyed, repeat this ability.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Saesenthessis: Blaze",
+    "tags": "Dragon",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Lineage.\nWhile in hand, deck, or on the battlefield, whenever an enemy unit is destroyed or Banished during your turn, boost self by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Avallac'h",
+    "tags": "Elf, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Eskel: Pathfinder",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Destroy an enemy unit with a primary category that is not in your starting deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Geralt: Igni",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Destroy the highest power units on an enemy row with a total of 35 or more power.\nInitiative: Destroy the highest power units on an enemy row with a total of 20 or more power instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Lambert: Swordmaster",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Damage an enemy unit and all copies of that unit on your opponent's side by 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Ornate Censer",
+    "tags": "",
+    "type": "special",
+    "strength": null,
+    "ability": "Swap the power of the highest- and lowest-power unit on the battlefield.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Phoenix",
+    "tags": "Beast",
+    "type": "special",
+    "strength": 5,
+    "ability": "Deploy: Gain Vitality (3).\nAt the start of the round, while in your graveyard, Banish self, then Spawn Phoenix Hatchling on a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Portal",
+    "tags": "",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Deploy: Summon a random 0-provision cost unit from your deck to the left of this card.\nTimer 3: Summon a random 0-provision cost unit from your deck to the right of this card.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Syanna",
+    "tags": "Human, Cursed",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Order: Repeat the Deploy ability of the next unit you play during this turn.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Triss: Telekinesis",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Ranged): Create and play a bronze special card from either player's starting deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Alzur",
+    "tags": "Human, Mage, Knight",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Curse of Corruption",
+    "tags": "Spell",
+    "type": "unit",
+    "strength": null,
+    "ability": "Destroy the highest-power unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Iris von Everec",
+    "tags": "Human, Cursed",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deathwish: Boost all enemy units by 2.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Land of a Thousand Fables",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Deploy: Play a special card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Vesemir: Mentor",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Avallac'h: Sage",
+    "tags": "Elf, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Ranged): Play an artifact from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Lady of the Lake",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Play an Echo card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Merigold's Hailstorm",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage 5 enemy units by 3.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Snowdrop",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Zeal. Order: Draw up to 2 cards, then shuffle the same number of cards back into your deck.\nWhenever you draw a card, boost self by 2.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Triss Merigold",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Triangle Within a Triangle",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by its provision cost, or damage an enemy unit by its provision cost.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Yennefer: Divination",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Bekker's Rockslide",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 8.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Zoltan: Scoundrel",
+    "tags": "Dwarf",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy (Melee): Spawn and play Duda: Agitator.\nDeploy (Ranged): Spawn and play Duda: Companion.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Necromancy",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a bronze unit from your graveyard and give it Doomed.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Operator",
+    "tags": "Beast, Mage",
+    "type": "unit",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Tempest",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Play all copies of Biting Frost, Impenetrable Fog, or Torrential Rain from your deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Surrender",
+    "tags": "Tactic, Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Dorregaray of Vole",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Alzur's Thunder",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 5.\nDeathblow: If it was an enemy, damage adjacent units by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Biting Frost",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn Frost on an enemy row for 3 turns.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Impenetrable Fog",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn Fog on an enemy row for 3 turns.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Torrential Rain",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn Rain on an enemy row for 3 turns.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Teleportation",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Spores",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Reset the power of a unit.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Oxenfurt Scholar",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost self by 1 for each card with a provision cost of 14 or higher in your starting deck.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Epidemic",
+    "tags": "Organic",
+    "type": "unit",
+    "strength": null,
+    "ability": "Destroy a 0 or 1 provision cost unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "neutral"
+  },
+  {
+    "name": "Madoc",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Whenever you play a Bomb, Summon self from your deck or graveyard to random allied row.\nOrder: Spawn Cataclysm on the opposite row for 1 turn, then destroy self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  }
+
+]

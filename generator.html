@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Metadata Editor</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      box-sizing: border-box;
+      word-wrap: break-word;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 60px;
+      max-height: 200px;
+      overflow-wrap: break-word;
+      white-space: pre-wrap;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    pre {
+      background: #eee;
+      padding: 10px;
+      margin-top: 20px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Card Metadata Creator</h2>
+    <form id="cardForm">
+      <label>Name: <input type="text" id="name" /></label>
+      <label>Tags: <input type="text" id="tags" /></label>
+      <label>Strength: <input type="number" id="strength" /></label>
+      <label>Ability: <textarea id="ability"></textarea></label>
+
+      <label>Type:
+        <select id="type">
+          <option value="unit" selected>unit</option>
+          <option value="special">special</option>
+          <option value="artifact">artifact</option>
+        </select>
+      </label>
+
+      <label>Color:
+        <select id="color">
+          <option value="gold">gold</option>
+          <option value="bronze">bronze</option>
+        </select>
+      </label>
+
+      <label>Rarity:
+        <select id="rarity">
+          <option value="common">common</option>
+          <option value="rare">rare</option>
+          <option value="epic">epic</option>
+          <option value="legendary">legendary</option>
+        </select>
+      </label>
+
+      <label>Faction:
+        <select id="faction">
+          <option value="neutral">neutral</option>
+          <option value="monsters">monsters</option>
+          <option value="nilfgaard">nilfgaard</option>
+          <option value="northern">northern</option>
+          <option value="scoiatael">scoiatael</option>
+          <option value="skellige">skellige</option>
+        </select>
+      </label>
+
+      <button type="submit">Add Card</button>
+    </form>
+
+    <pre id="output"></pre>
+  </div>
+
+  <script>
+    const form = document.getElementById("cardForm");
+    const output = document.getElementById("output");
+    let cards = [];
+
+    // Restore defaults
+    let lastTags = "";
+    let lastColor = "gold";
+    let lastRarity = "legendary";
+    let lastFaction = "neutral";
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      const card = {
+        name: document.getElementById("name").value,
+        tags: document.getElementById("tags").value,
+        type: document.getElementById("type").value || "unit",
+        strength: parseInt(document.getElementById("strength").value) || null,
+        ability: document.getElementById("ability").value,
+        color: document.getElementById("color").value,
+        rarity: document.getElementById("rarity").value,
+        faction: document.getElementById("faction").value
+      };
+
+      cards.push(card);
+
+      // Remember last selections
+      lastTags = card.tags;
+      lastColor = card.color;
+      lastRarity = card.rarity;
+      lastFaction = card.faction;
+
+      // Update form
+      document.getElementById("name").value = "";
+      document.getElementById("tags").value = lastTags;
+      document.getElementById("strength").value = "";
+      document.getElementById("ability").value = "";
+      document.getElementById("color").value = lastColor;
+      document.getElementById("rarity").value = lastRarity;
+      document.getElementById("faction").value = lastFaction;
+
+      output.textContent = JSON.stringify(cards, null, 2);
+    });
+  </script>
+</body>
+</html>

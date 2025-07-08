@@ -1,0 +1,502 @@
+[
+    {
+    "name": "Urn of Shadows",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Trigger an allied unit's Deathwish ability.\nIf you targeted a bronze unit repeat the Order once.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Auberon: Conqueror",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Veil.\nDeploy: Play a bronze Wild Hunt unit from your starting deck.\nWhenever you play a Wild Hunt unit, boost it by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Tir ná Lia",
+    "tags": "Location, WIld Hunt",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Resilience.\nDeploy: Boost an allied unit by the number of unique bronze Wild Hunt cards in your starting deck.\nOrder: Spawn and play Red Riders.\nDevotion: Also Spawn Frost equal to the amounts lost during the last round transition.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Eredin Bréacc Glas",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deploy: Spawn Frost on an enemy row for 2 turns.\nDominance: Increase the damage dealt by Frost by 1",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Caranthir Ar-Feiniel",
+    "tags": "Elf, Wild Hunt, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Spawn Frost on both enemy rows for 2 turns.\nDominance: Frost duration does not decrease.\nDevotion: For each additional Frost you spawn above the limit, trigger it instantly.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Caranthir: Golden Child",
+    "tags": "Elf, Wild Hunt, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "At the start of your turn, while in hand or deck, reset own power and boost self by the damage dealt by Frost in the last 5 enemy turns.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Ard Gaeth",
+    "tags": "WIld Hunt",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Echo.\nSpawn Frost on both enemy rows for 3 turns.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Ge'els",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Wild Hunt special from your deck.\nDevotion: Play a Wild Hunt card from your deck instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Imlerith Sabbath",
+    "tags": "Elf, Wild Hunt, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deploy: Set an allied unit's power to 7.\nDominance: Set a unit's power to 7 instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Imlerith's Wrath",
+    "tags": "Wild Hunt",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by the power of your highest-power unit. If it was on a row with Frost, destroy it instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Winter Queen",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 4,
+    "ability": "At the end of your turn, if there is Frost on both enemy rows, Summon self to Ranged row.\nDevotion: Once both players have passed, boost self by 2 for each turn of Frost remaining on your opponent's side.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "The Naglfar",
+    "tags": "Wild Hunt",
+    "type": "special",
+    "strength": null,
+    "ability": "Look at 2 random gold cards from your deck, then play one and move the other back to the top of it.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Aen Elle Aristocrat",
+    "tags": "Elf, Wild Hunt, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order (Dominance): Move an enemy unit to the other row.\nAt the end of your turn, Spawn Frost for 1 turn on each enemy row on which Frost was applied this turn.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Naglfar's Crew",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Spawn Frost on an enemy row for 2 turns.\nAt the end of your turn, if there is Frost on the opposite row, boost self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Red Riders",
+    "tags": "Wild Hunt",
+    "type": "special",
+    "strength": null,
+    "ability": "Choose one:\nSpawn Frost on an enemy row for 4 turns.\nSpawn Frost on an enemy row for 2 turns, then replay a bronze Wild Hunt unit.\nSpawn Frost on both enemy rows for 2 turns.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Wild Hunt Bruiser",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Move an enemy unit to the other row. If the target moves to a row affected by Frost, damage it by 2.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Aen Elle Conqueror",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 8,
+    "ability": "Veil.\nDeploy: Destroy self.\nDevotion: Cancel the Deploy ability.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Naglfar's Taskmaster",
+    "tags": "Elf, Wild Hunt",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Reset the power of an enemy unit.\nDominance: Also Purify it.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Wild Hunt Navigator",
+    "tags": "Elf, Wild Hunt, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost an allied unit by the duration of Frost on its opposite row.\nDominance: Boost by the total duration of Frost on your opponent's side instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Wild Hunt Rider",
+    "tags": "Elf, Wild Hunt, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Dominance): Summon all copies of self from your deck to this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Wild Hunt Warrior",
+    "tags": "Elf, Wild Hunt, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Damage an enemy unit by 2.\nDominance: Also Spawn Frost on its row for 1 turn.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+    {
+    "name": "Viy",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 8,
+    "ability": "Deathwish: Shuffle Viy back into your deck, then increase its base power by 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Dagon",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 8,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Haunt",
+    "tags": "Scenario",
+    "type": "artifact",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Brewess: Ritual",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Summon 2 random bronze Deathwish units from your deck to this row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Arachas Queen",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Consume an allied bronze unit.\nOrder: Spawn and play Arachas Nest.\nDeathwish: Summon the Consumed unit from your graveyard to this row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Dettlaff: Higher Vampire",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deathwish: Summon self from your graveyard to the same row. This ability is limited to 2 uses and does not refresh when leaving the battlefield.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Weavess: Incantation",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee): Draw a card, then Discard a card. If the Discarded card was a unit, boost self by its power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Miruna",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Seize a chosen unit with 4 or less power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Ruehin",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deathwish: Summon self from your graveyard to your Melee row and Consume your lowest-power unit, excluding self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Whispering Hillock",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a Deathwish unit from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Giant Toad",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Consume an allied unit.\nWhen you play a Deathwish unit on your Ranged row, Summon self from your graveyard to the same row, Consume it and gain Doomed.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Siren",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Consume an allied unit.\nDeathwish: Boost adjacent allied units by 2.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Archespore",
+    "tags": "Plant, Cursed",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deathwish: Summon all copies of self from your deck to this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Bridge Troll",
+    "tags": "Ogroid",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Boost the lowest-power allied unit by 4.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Desert Banshee",
+    "tags": "Specter",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Order: Consume an allied unit.\nWhenever you play a unit with the Deathwish ability, boost self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Endrega Eggs",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Spawn 3 Drones on this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Foglet",
+    "tags": "Necrophage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Spawn Fog on the opposite row for 3 turns.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Adda: Striga",
+    "tags": "Beast, Cursed",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Zeal. Order (Predator): Consume a Token. If it was allied, double the boost from it.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kayran",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Zeal.\nOrder: Consume an ally.\nCharge: 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Toad Prince",
+    "tags": "Beast, Cursed",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee): Consume a unit with 4 or less power.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Barbegazi",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Order: Consume an allied unit.\nCharges: 2",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Barghest",
+    "tags": "Specter",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Consume an allied unit.\nOrder (Dominance): Consume an allied unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Endrega Warrior",
+    "tags": "Insectoid, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Consume your adjacent units. For each Consumed Insectoid, gain 1 Charge.\nZeal. Order: Spawn a Drone on this row.\nCharge: 1",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Slyzard",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Consume an allied unit on this row.\nCooldown: 1",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kikimore Queen",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Thrive.\nWhenever this unit's Thrive is triggered, boost all allied Insectoids on this row by 1.\nWhenever you play an Organic card, trigger own Thrive.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Glustyworp",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Destroy all units with 1 power. For each unit destroyed, boost self by 2",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Arachas Behemoth",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Spawn 2 Drones and boost all allied Insectoids on this row by 1.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Endrega Larva",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Thrive.\nDeploy: Spawn a base copy of self on this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kikimore Warrior",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Destroy an allied unit, then Spawn a Kikimore Warrior on this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  }
+]

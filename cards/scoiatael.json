@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Aen Seidhe Sabre",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Spawn and play a Scoia'tael Neophyte.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Feign Death",
+    "tags": "Scenario",
+    "type": "artifact",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Riordain",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: If played adjacent to at least one:\nTrap - Play an Elf from your deck.\nElf - Play a Trap from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Simlas Finn aep Dabairr",
+    "tags": "Elf, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play all copies of a bronze special card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Angus Bri Cri",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: For the rest of the game, whenever an Elven Deadeye enters your side of the battlefield, boost it by 1.\nIf your starting deck has at least 4 unique Traps, this card starts in your hand.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "The Great Oak",
+    "tags": "Treant",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Deploy: Damage an enemy unit by the number of cards to the left of Great Oak, then boost self by the number of cards to the right of Great Oak.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Filavandrel aén Fidháil",
+    "tags": "Elf",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Iorveth",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Move an allied Trap back to your hand, then play a Trap.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vernossiel",
+    "tags": "Elf, Bandit",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Isengrim Faoiltiarna",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Boost all allied Elves by 1.\nWhenever you play an Elf, boost self by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Sticky Situation",
+    "tags": "Trap",
+    "type": "artifact",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Toruviel",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Damage the units on each end of an enemy row by 2.\nDeploy (Ranged): Damage all units on an enemy row by 1.\nIf you control an Elven Deadeye, combine both abilities instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Aelirenn",
+    "tags": "Elf, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "At the end of your turn, if you control 5 or more Elves, Summon self from your deck or graveyard to your Melee row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Yaevinn",
+    "tags": "Elf",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Damage an enemy unit by 1 for every other allied Elf unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Éibhear Hattori",
+    "tags": "Elf",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Play a Trap card from your graveyard.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Backup Plan",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Hostage Taker",
+    "tags": "Elf, Soldier, Bandit",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Seize an enemy unit with 0 or less power, then transform the Seized unit into an Elven Deadeye without changing its power.\nThe maximum power is increased by 1 for each Trap you played this round.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vrihedd Vanguard",
+    "tags": "Elf, Soldier",
+    "type": "unit",
+    "strength": 2,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dol Blathanna Bowman",
+    "tags": "Elf, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Damage an enemy unit by 1 for each row that separates it from this unit plus 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Elven Scout",
+    "tags": "Elf, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Spying.\nDeploy:",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Elven Wardancer",
+    "tags": "Elf, Agent",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deception: Summon self to the Meelee row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Scoia'tael Neophyte",
+    "tags": "Elf, Bandit",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Spawn a base copy of self on the other row.\nOrder: Transform an allied Elf into an Elven Deadeye.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vernossiel's Commando",
+    "tags": "Elf, Bandit",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vrihedd Officer",
+    "tags": "Elf, Soldier",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Shuffle a bronze card from your hand into your deck, then draw a bronze card.\nIf the shuffled card was a unit, boost self by its power",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vrihedd Saboteur",
+    "tags": "Elf, Soldier, Agent",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: If you control an artifact, Spawn an Elven Deadeye on this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vrihedd Sappers",
+    "tags": "Elf, Soldier",
+    "type": "unit",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Zoltan: Warrior",
+    "tags": "Dwarf, Soldier, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Damage 2 enemy units by 3. Spawn 2 Rowdy Dwarfs on this row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Brouver Hoog",
+    "tags": "Dwarf",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Gain 1 Armor for each Dwarf in your hand.\nBarricade: At the end of your turn, boost all Dwarves with Armor on this row by 1, then lose 1 Armor.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Figgis Merluzzo",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Mahakam Pass",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Deploy: Play a Scoia'tael Dwarf from your deck and give it 4 Armor.\nOrder: Spawn and play Tempering.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Munro Bruys",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Gabor Zigrin",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Yarpen Zigrin",
+    "tags": "Dwarf, Warrior",
+    "type": "unit",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Zoltan Chivay",
+    "tags": "Dwarf",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Resilience.\nDeploy: Boost adjacent Dwarves by 2.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dennis Cranmer",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Boost adjacent units by an amount equal to their Armor.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Eudora Breckenriggs",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 2,
+    "ability": "This card stays at the bottom of your deck and cannot be reshuffled.\nWhenever you play Zoltan, summon Eudora to the right of him.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Barclay Els",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Give each allied Dwarf 1 Armor. If they already had Armor, boost them by 1 instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Mahakam Marauder",
+    "tags": "Dwarf, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Boost self by the amount equal to an allied unit's Armor.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dwarf Berserker",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Barricade: At the end of your turn, damage self by 1 then damage a random enemy unit by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dwarven Skirmisher",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Melee): Damage an enemy unit by 3. If it survived, gain 1 Armor.\nOrder (Barricade): Damage an enemy unit by 3.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Mahakam Defender",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Mahakam Guard",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost self by the number of allied Dwarves on this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Mahakam Volunteers",
+    "tags": "Dwarf, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: If you control a Dwarf, Summon all copies of self from your deck to this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Miner",
+    "tags": "Dwarf",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Order: Boost an allied unit by 2.\nIf it's a Dwarf, also give it 4 Armor.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Tempering",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by 6. If it's a Dwarf, also give it 3 Armor.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Aucwenn",
+    "tags": "Dryad, Naiad",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Symbiosis\nDeploy: Infuse all your Naiads with the Nature category, wherever they are.\nWhenever you Spawn a Wandering Treant, give it Vitality equal to the number of Dryads you control.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Eithné: Wrath of Brokilon",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": 10,
+    "ability": "Immunity.\nSymbiosis 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Eithné: Mother",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Spawn 2 Young Dryads on this row.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Aglaïs",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Freixenet",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Zeal. Order (Ranged): Spawn a Young Dryad on this row.\nCooldown: 4\nDevotion: At the end of your turn, reduce the Cooldown by the duration of Vitality on self.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Water of Brokilon",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Fauve",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Nature card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Hamadryad",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Symbiosis.\nAt the end of your turn, if this unit has Vitality, boost self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Naiad Fledgling",
+    "tags": "Dryad, Naiad",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Naiad Pondkeeper",
+    "tags": "Dryad, Naiad",
+    "type": "unit",
+    "strength": 4,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dryad's Caress",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Purify an allied unit and boost it by 4. If you control a Dryad, also give it Vitality (3).",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dryad Enchantress",
+    "tags": "Dryad",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Symbiosis.\nDeploy (Melee): Give an allied unit 3 Armor.\nDeploy (Ranged): Give an allied unit Vitality (3).",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Forest Protector",
+    "tags": "Treant",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Play a bronze Nature card from your graveyard.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Call of the Forest",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a Scoia'tael unit from your deck and boost it by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Frog Mating Season",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Shaping Nature",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\n",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Zoltan's Company",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn 2 Rowdy Dwarves on an allied row. Increase the number of Spawned Rowdy Dwarves by 1 for each Zoltan in your starting deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Bountiful Harvest",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Nature's Rebuke",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 5.\nDeathblow: Boost a random allied Treant by 3.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Circle of Life",
+    "tags": "Nature",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dol Blathanna Bomber",
+    "tags": "Elf, Soldier, Agent",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Play a Bomb from your hand, then draw a card.\nWhenever you play a Bomb, damage a random enemy unit by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  }
+]
