@@ -498,5 +498,155 @@
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
+  },
+    {
+    "name": "Dettlaff van der Eretein",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Give an enemy unit Bleeding (3).\nCharges: 3\nOnce all Charges are used up, Spawn an Ekimmara on a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Unseen Elder",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Destroy an allied unit, then Spawn an Ekimmara on its row and boost it by the destroyed unit's power.\nCharges: 2",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Regis: Reborn",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Drain an enemy unit by 3.\nAt the end of your turn, while in hand or deck, if there is an enemy unit with Bleeding, increase own base power by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Katakan",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Zeal. Order: Spawn an Ekimmara on this row.\nCooldown: 4\nReduce the Cooldown by 1 whenever Bleeding is applied to an enemy unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Orianna",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Give an enemy unit Bleeding equal to the number of allied Vampires.\nAt the end of your turn, boost self by the number of Bleeding enemy units.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Vereena",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Give an enemy unit Bleeding (4).\nBleeding enemy units cannot be boosted.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Protofleder",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Queen of the Night",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy (Melee): Give an enemy unit Bleeding (3).\nDeploy (Ranged): Purify a unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Fleder",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 4,
+    "ability": "When Bleeding is applied to an enemy unit, boost self by the amount applied.\nCounter: 1\nAt the start of your turn, refresh the Counter.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Alp",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Give an enemy unit Bleeding (3).\nOrder: Give an enemy unit Bleeding (3).",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Nekurat",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Zeal. Order: Give an enemy unit Bleeding (2).\nCooldown: 2\nWhenever you play a Vampire, reduce the Cooldown by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Bruxa",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Feast of Blood",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Purify an enemy unit and damage it by 3. If you control a Vampire, also give it Bleeding (3).",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Garkain",
+    "tags": "Vampire",
+    "type": "special",
+    "strength": 4,
+    "ability": "At the end of your turn, if there is a Bleeding enemy unit, boost self by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Crimson Curse",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Give Bleeding (2) to all enemy units on a row.\nSpawn 2 Ekimmaras on the opposite row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
   }
 ]

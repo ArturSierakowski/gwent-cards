@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Anna Henrietta",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Spawn and play Buhurt.\nWhenever you boost one or more enemy units during your turn, boost the lowest-power allied unit by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Moorvran Voorhis",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": 7,
+    "ability": "Deploy: Draw up to 3 cards, then move the same number of cards back to the top of your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Ardal Aep Dahy",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Seize an enemy unit with 3 power or less.\nThis value is raised by 1 for every 4 Tactic cards in your starting deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Emhyr var Emreis",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Lock an enemy unit and damage it by 3.\nCharges: 2",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Collar",
+    "tags": "",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Lock an enemy unit and damage it by 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Masquerade Ball",
+    "tags": "Scenario",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Scenario: Progress whenever you play an Aristocrat on your side of the battlefield.\nPrologue: Spawn a Thirsty Dame on this row.\nChapter 1: Spawn and play Fangs of the Empire.\nChapter 2: Spawn and play Fangs of the Empire.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Torres var Emreis",
+    "tags": "Human, Cleric, Aristocrat",
+    "type": "unit",
+    "strength": 1,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Ard Feainn",
+    "tags": "",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Look at the top 2 cards from your deck, and choose one to move to the bottom.\nIf it was an Agent, give an enemy unit Spying. If it was an Aristocrat, give an enemy unit Bleeding (2).\nWhenever you play an Aristocrat, refresh the Order.\nWhile in deck, when you play a gold Aristocrat, Summon self to your Melee row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Battle Stations!",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Play up to 2 bronze cards from your hand, then draw as many cards.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Artaud Terranova",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Beauclair",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Deploy: Set an allied unit's power to match the highest-power enemy unit.\nOrder: Reset the power of a unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Rience",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Look at the top 3 units in your deck. Move 1 to your graveyard, then destroy an enemy unit with power equal to that unit's power\nOrder: Set the power of a unit to match the number of cards in your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Stefan Skellen",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Spawn and play Ace up the Sleeve for each 3 Tactics in your starting deck.\nAce up the Sleeve: Damage an enemy unit by 2. If the enemy is non-Spying, give him Spying.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Tibor Eggebracht",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 9,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "War Council",
+    "tags": "Location, Tactic",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Deploy: Look at the first 3 cards from the top of your deck and play one of them.\nOrder: Spawn and play Battle Preparation.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Vattier de Rideaux",
+    "tags": "Human, Agent, Aristocrat",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deploy (Ranged): If neither player has passed and your opponent's hand is not full, move a non-Doomed enemy unit with power up to 2 to your opponent's hand, then draw a card.\nIncrease the maximum value by the number of Tactics in your starting deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Shilard Fitz-Oesterlen",
+    "tags": "Human, Agent, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Play a bronze Soldier or Aristocrat from your hand, then draw a card.\nWhenever your opponent plays a unit, give it Spying.\nOrder: Seize a 1-power enemy unit with Spying.\nDevotion: At the end of your turn, refresh this card's Order.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Braathens",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Play a bronze Disloyal unit from your deck.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Coup de Grâce",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nDamage an enemy unit by 3.\nDeathblow: Replay it.\nConspiracy: Damage an enemy unit by 5 instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Joachim de Wett",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Disloyal.\nDeploy: Play the top non-Disloyal unit from your deck and boost it by 8.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Ivar Evil-Eye",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Swap this unit's power with an enemy unit.\nAdrenaline 2: Damage an enemy unit by 5 instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Leo Bonhart",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Usurper: General",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Spawn an Operative on each enemy row and give them Spying.\nZeal. Order: Seize all Spying Operatives.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Usurper: Emperor",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Veil.\nDeploy: Spawn an Operative on each enemy row and give them Spying.\nZeal. Order: Seize all Spying Operatives.\nWhenever an enemy unit gains Spying, boost self by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Operative",
+    "tags": "Human, Token, Agent",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Doomed.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Rainfarn of Attre",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Disloyal.\nDeploy: Boost an allied unit by the combined power of units adjacent to self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Vincent van Moorlehem",
+    "tags": "Vampire, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Destroy an enemy unit with a status.\n",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Cahir Dyffryn",
+    "tags": "Human, Soldier, Knight, Aristocrat",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Whenever an enemy unit receives a boost during your turn, boost self by the same amount.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Philippe van Moorlehem",
+    "tags": "Vampire, Aristocrat",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: If you control a Vampire, gain Zeal.\nOrder: Give an enemy unit Doomed. If it already has a status, Lock it instead. If it already has more than 1 status, Poison it instead.\nCooldown: 1",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Rosa and Edna var Attre",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Summon a bronze unit from your opponent's deck to the opposite row and give it Spying.\nOrder: Damage an enemy unit by 1 for each unique Aristocrat in your starting deck.\nDeathblow: Replay a base copy of the destroyed unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Vilgefortz",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Destroy an enemy unit, then your opponent Summons the top bronze unit from their deck to their random row.\nDeploy (Ranged): Destroy an allied unit, then Summon the top unit from your deck to a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Yennefer's Invocation",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Move an enemy unit to the top of your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Bribery",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Guillaume de Launfal",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Boost self by the number of allied Knights, then boost self and an enemy unit by half of both units' power.\nOrder (Grace 14): Move all statuses from an enemy unit to self.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Hefty Helge",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Damage a unit by 2.\nWhenever you play a Tactic, refresh the Order.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Isbel of Hagge",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Lydia van Bredevoort",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Melee): Create and play a bronze special card from your opponent's faction, which is not in his starting deck.\nDeploy (Ranged): Play a bronze special card from your opponent's graveyard.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Vivienne de Tabris",
+    "tags": "Human, Cursed, Aristocrat",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Set a unit's power equal to its provision cost.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Albrich",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "When moved to the top of your deck, boost an allied unit, which moved Albrich, by 2 and boost self by 2.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Assire var Anahid",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy (Melee): Shuffle a card from your opponent's graveyard into their deck.\nDeploy (Ranged): Shuffle a card from your graveyard into your deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Cantarella",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Play the top card from your opponent's deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "False Ciri",
+    "tags": "Human, Agent, Aristocrat",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Play a bronze Tactic from your graveyard and give it Doomed.\nAt the end of your turn, boost self by 1.\nGrace 8: Move self to the opposite row and Purify self.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Fringilla Vigo",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Disloyal.\nDeploy: Damage adjacent units by 4.\nConspiracy: Damage a unit by 6 instead. ",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Menno Coehoorn",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Tactic from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Milton de Peyrac-Peyran",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Boost an enemy unit by 4, then boost self by 4.\nOrder: Boost self by the last boost you gave to an enemy unit this round.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Paulmerin de Launfal",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Choose an unboosted enemy unit, then play the top card from your deck and boost that unit by that card's provision cost. If you control Milton de Peyrac-Peyran, you may choose from the top 3 cards of your deck instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Treason",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Give Spying to an enemy unit and choose one:\nDamage adjacent units by its power.\nDamage an enemy by its power. Increase the value by 1 for each Spying enemy unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Dead Man's Tongue",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Fercart",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Play a special card from your hand, then draw a card.\nWhenever you play a special card, give Spying to a random non-Spying enemy unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Fergus var Emreis",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deploy: Give an enemy unit Spying.\nDevotion: Give 3 enemy units Spying instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Roderick of Dun Tynne",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Look at 2 random gold cards from your deck, then play 1 of them.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Tourney Shaelmaar",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Disloyal.\nEverytime an allied unit is played, move self to its row and damage it and self by 2.\nDeathwish: Summon self to the opposite row and Lock self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Van Moorlehem's Cupbearer",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy (Melee): Poison a unit.\nDeploy (Ranged): Purify a unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Blightmaker",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Master of Puppets",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Seize a bronze enemy unit, then move self to the opposite row.\nCooldown: 2",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Nauzicaa Sergeant",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: If your opponent has won a round this game, Spawn and play Battle Preparation.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Slave Driver",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Thirsty Dame",
+    "tags": "Vampire, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever an enemy unit receives a status, boost self by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Alba Armored Cavalry",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Lock an enemy unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Alba Pikeman",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Amnesty",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Seize an enemy unit with 3 or less power.\nConspiracy: Also boost it by 2.\nDevotion: Always trigger the Conspiracy ability.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Assassination",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 6. Decrease the damage by 1 for each adjacent non-Spying unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Experimental Remedy",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a Bronze unit from your opponent's graveyard.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Buhurt",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an enemy unit by 3, then an allied unit by 9.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Imperial Diplomacy",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Create and play a bronze card from your opponent's faction, which is not in his starting deck.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Tourney Joust",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Battle Preparation",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by 5 and give it 2 Armor. If it's a Soldier, boost by 7 and give 2 Armor instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Duchess' Informant",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Impera Enforcers",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Mage Torturer",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Nauzicaa Brigade",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 2,
+    "ability": "If your opponent has won a round this game, Summon self from your deck to a random allied row when you play a Soldier.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Nilfgaardian Knight",
+    "tags": "Human, Soldier, Knight",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Deploy: Boost an enemy unit by 2.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Seditious Aristocrats",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Boost self by 1 for each Spying enemy unit.\nWhenever an enemy unit gains Spying, boost self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Venendal Elite",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Boost self by 1 for each Tactic in your hand.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Standard Bearer",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Boost self by 1 for each boosted enemy unit.\nBoost self by 1 every time an enemy is boosted during your turn.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Alchemist",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Courier",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Melee): Look at the top 3 cards from your opponent's deck and move one to the top.\nDeploy (Ranged): Look at the top 3 cards from your deck and move one to the top.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Ducal Guard",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Emissary",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Boost an allied unit by 8.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Fangs of the Empire",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: Poison an enemy unit.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Fire Scorpion",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: Damage a unit by 1.\nCooldown: 1\nWhenever you play a Tactic, decrease Cooldown by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Hunting Pack",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: If an enemy unit has a status, Summon all copies of self from your deck to this row and boost self by the highest number of statuses of an enemy unit",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Impera Brigade",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage all Spying enemy units by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Knight Challenger",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Gain Vitality equal to the amount of boost an enemy unit has.\nGrace 8: Boost all units by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Mage Assassin",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Damage an enemy unit by 2.\nWhen moved to the top of your deck during your turn, Summon self to a random allied row and damage a random enemy unit by 2.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Mage Infiltrator",
+    "tags": "Human, Mage, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Damage adjacent units by 3.\nDeathblow: Move self to the opposite row and remove Spying.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Toussaintois Knight-Errant",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 2,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Van Moorlehem Hunter",
+    "tags": "Vampire, Aristocrat",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee) Give an enemy unit Bleeding (3).\nDeploy (Ranged): Lock a unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Van Moorlehem Servant",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Copy all statuses from an enemy unit to another enemy unit. Boost self by the number of status copied that way.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Vicovaro Novice",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy (Ranged): Draw a card, then move a card from your hand to the top of your deck.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "nilfgaard"
+  }
+]
