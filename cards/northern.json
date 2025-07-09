@@ -8,5 +8,875 @@
     "color": "gold",
     "rarity": "legendary",
     "faction": "northern"
+  },
+  {
+    "name": "Radovid",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Boost an allied unit by 2 and give it a Shield.\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Meve",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Boost an allied unit by 1.\nCharges: 3\nOnce per game, once all Charges are used up, Spawn and play a Lyrian Scytheman.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Demavend",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Spawn a Volunteer on an allied row, then reduce the Cooldown of each non-Neutral unit on that row by 1.\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Foltest",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Boost an allied unit by 2. If it's a non-Neutral unit, also give it Zeal.\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Calanthe",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Spawn a base copy of an allied bronze Soldier on its row and boost both units by 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "King Henselt",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Play a Crew unit from your deck.\nWhenever an adjacent unit's Cooldown decreases, boost self by the same amount.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Amphibious Assault",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nPlay a non-Neutral unit from your deck with a provision cost of 10 or less. Boost it by 1 for each 2 provisions below the limit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Siege",
+    "tags": "Scenario",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Scenario: Progress whenever you play a Siege Engine.\nPrologue: Spawn a reinforced Trebuchet on your Ranged row.\nChapter 1: Spawn a Battering Ram on your Ranged row.\nChapter 2: Spawn and play Bombardment.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Chapter of Wizards",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Draug",
+    "tags": "Specter, Cursed, Knight",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Zeal. Order: Transform all Human on an allied row into Kaedweni Revenants without changing their power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Keira Metz",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 7,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Roche: Merciless",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Sigismund Dijkstra",
+    "tags": "Human, Agent, Aristocrat",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeploy: Play the top 2 cards from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Viraxas: Outcast",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Formation.\nOrder: Reset an allied non-Neutral unit's Order ability and give it Zeal.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Viraxas: King",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Veil.\nFormation.\nOrder: Reset an allied non-Neutral unit's Order ability and give it Zeal.\nWhenever you play a Soldier, boost it by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Falibor",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Gerhart of Aelle",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Patience.\nZeal. Order: Create and play a [0]-provision cost Doomed Spell.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Flotsam",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Deploy: Create a bronze Northern Realms unit with an Order ability, which is not in your starting deck.\nOrder: Refresh an allied bronze unit's Order, then give it Zeal.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "King Radovid V",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Deploy: If the base version of your leader ability has more than 1 Charge, give it an additional Charge.\nOrder: Repeat the Deploy ability.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Philippa: Blind Fury",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Prince Anséis",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Formation.\nOrder: Damage an enemy unit by 5.\nInspired: Duel an enemy unit instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Queen Adalia",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Raffard’s Vengeance",
+    "tags": "Machine, Mage, Siege Engine",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Order: Play a bronze unit from your hand, then draw a card.\nCooldown: 5\nCrew: Whenever you play a unit next to this card, damage a random enemy unit by 2.\nMages contribute to this card's Crew ability.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Shani",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Zeal. Order: Summon a bronze Human unit from your graveyard to this row and give it Doomed.\nCooldown: 7",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Tissaia de Vries",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Vernon Roche",
+    "tags": "Human Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Bloody Baron",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Formation.\nOrder: Reset the power of a unit.\nInspired: If it was boosted, give it Bleeding equal to the amount of boost it lost.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Dandelion",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Ildiko",
+    "tags": "Human, Mage, Aristocrat",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Order: Boost an allied unit by 4.\nWhenever you play a non-Neutral unit, give it Zeal.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Nenneke",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Priscilla",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Queen Meve",
+    "tags": "Human, Soldier, Aristocrat",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deploy: Reduce the Timer by 1 for each adjacent unit with an Inspired ability.\nTimer 3: Boost all allied units by 1 and reset the Timer.\nWhenever this unit receives a boost, gain 1 Armor.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Seltkirk of Gulet",
+    "tags": "Human, Cursed, Knight",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Order (Melee): Duel an enemy unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Vandergrift",
+    "tags": "Human, Cursed, Knight",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Resilience. Shield.\nGrace 12: Gain Resilience.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Black Rayla",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Order: Damage a unit by 1.\nInspired: Damage by 2 instead.\nCooldown: 1",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Dethmold",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 2,
+    "ability": ".\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Foltest's Pride",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Resupply.\nZeal. Order: Damage an enemy unit by 2 and its adjacent units by 1.\nCooldown: 4\nCrew: Set the Cooldown to 2.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Hubert Rejk",
+    "tags": "Vampire",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Whenever you use an Order ability while this card is in your deck, remove a Counter from it. When the Counter reaches 0, Summon this card from your deck to your Ranged row.\nCounter: 10",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "King Roegner",
+    "tags": "Human, Aristocrat",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Melee): Remove Shield from all units, then boost self by 3 for each Shield removed.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Reynard Odo",
+    "tags": "Human, Soldier, Knight",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Whenever you play a unit, boost it by 1.\nOrder (Grace 12): Boost all boosted allied units by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Sabrina Glevissig",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\nDeathwish: Damage all units on this row by 3.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Sabrina's Inferno",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Vissegerd",
+    "tags": "Human, Soldier, Knight",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Formation.\nOrder: Damage an enemy unit by the number of boosted allied units.\nDeatblow: Damage another unit by the damage left and repeat until the damage is 0.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Immortals",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Shield.\nMelee: Whenever this unit loses its Shield, boost it by 2.\nAt the end of your turn, gain Shield.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "John Natalis",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Warfare card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Leticia Charbonneau",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Thaler",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Disloyal.\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Windhalm of Attre",
+    "tags": "Human, Knight",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Shield\nAt the end of your turn, if this unit has Shield, boost it by 2.\nOrder (Grace 10): Gain a Shield.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Istredd",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Margarita Laux-Antille",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Zeal. Order: Lock an enemy unit or unlock an allied unit.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "northern"
+  },
+  {
+    "name": "Síle de Tansarville",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Spell from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "northern"
+  },
+  {
+    "name": "Alumni",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Blue Stripes Commando",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Redanian Secret Service",
+    "tags": "Human, Agent",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Zeal. Order: Purify an allied unit.\nIf you do not control Redanian Secret Service, when an allied unit gains a status, Summon self from your deck to its row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Temerian Infantry",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Formation.\nOrder: Boost an allied unit by 2 for each remaining Charge of your leader ability.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Aretuza Adept",
+    "tags": "Human,Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever an allied unit's Patience is triggered, boost self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Battering Ram",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Resupply.\nOrder (Melee): Move self to the Ranged row.\nOrder (Ranged): Move self to the Melee row, then damage the highest-power enemy unit by 3.\nCrew: Choose the enemy unit to damage.\nCooldown: 2",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Boiling Oil",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 4.\nDeathblow: Purify adjacent units.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Casting Contest",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by 5. If it's bronze, reset its Order ability and give it Zeal.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Carroballista",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Resupply.\nOrder (Ranged): Damage an enemy unit by 2.\nCooldown: 3\nCrew: At the end of your turn, gain 1 Armor.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Cintrian Spellweaver",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Damned Sorceress",
+    "tags": "Specter, Mage, Cursed",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Zeal. Order: Remove a unit's Shield, then boost self by 2.\nCooldown: 1",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Immortal Cavalry",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Shield.\nDeploy: Spawn a base copy of self on this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Lyrian Arbalest",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Lyrian Landsknecht",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Reinforced Ballista",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Formation. Resupply.\nOrder: Damage a unit by 1.\nCooldown: 1",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Reinforced Trebuchet",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 4,
+    "ability": "At the end of your turn, damage a random enemy unit on the Ranged row by 1.\nCrew: Damage a random enemy unit by 1 instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Runeword",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Siege Master",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Order: Reduce an allied unit's Cooldown by 1.\nWhen you play a Siege Engine, Summon self from your hand to the left of it, then draw a card.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Aedirnian Mauler",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order (Melee): Damage an enemy unit by 2.\nInspired: Damage an enemy by 4 instead.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Aretuza Student",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Ban Ard Student",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Ballista",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage an enemy unit by 2.\nOrder: Damage an enemy unit by 2.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Ban Ard Tutor",
+    "tags": "Human, Mage",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever you play a unique special card, boost self by 2.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Blue Stripes Scout",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Bombardment",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Kaedweni Knight",
+    "tags": "Human, Soldier, Knight",
+    "type": "special",
+    "strength": 5,
+    "ability": "When played or Summoned from the deck, boost self by 3.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Kaedweni Sergeant",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Formation.\nOrder: Boost an allied unit by 1 three times.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Kerack Marine",
+    "tags": "Human, Soldier, Pirate",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Zeal. Order: Boost an allied unit by 2.\nDevotion: Boost by 4 instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Lyrian Scytheman",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost self by 1 for each boosted unit on your board.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "northern"
+  },
+  {
+    "name": "Mad Charge",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Practice Makes Perfect",
+    "tags": "Spell",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Radovid's Royal Guards",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Formation.\nOrder: Boost an allied unit by 2.\nInspired: Give it 2 Armor.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Siege Tower",
+    "tags": "Machine, Siege Engine",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Zeal. Order: Gain Vitality (2).\nCrew: Boost self by 2 instead.\nCooldown: 2",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Smoke Them Out!",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn 3 Volunteers on an allied row. If you control a boosted unit, also boost Spawned Volunteers by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
+  {
+    "name": "Winch",
+    "tags": "Warfare",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by 5 and reduce its Cooldown by 3.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
   }
 ]
