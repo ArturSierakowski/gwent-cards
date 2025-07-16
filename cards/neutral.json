@@ -74,7 +74,7 @@
     "tags": "Witcher",
     "type": "unit",
     "strength": 3,
-    "ability": ".\n.",
+    "ability": "Echo.\nDeploy: Boost self by 2.\nEvery time Ciri leaves the battlefield or your hand, increase the boost by 2.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -194,7 +194,7 @@
     "tags": "Spell",
     "type": "special",
     "strength": null,
-    "ability": "Destroy the highest-power unit.\nInitiative: Destroy all highest-power units instead.",
+    "ability": "Destroy all highest-power units.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -203,17 +203,17 @@
     "name": "Pellar",
     "tags": "Human",
     "type": "unit",
-    "strength": 3,
+    "strength": 5,
     "ability": "Deploy (Melee): Purify a unit.\nDeploy (Ranged): Banish a card from your opponent's graveyard.",
-    "color": "bronze",
-    "rarity": "rare",
+    "color": "gold",
+    "rarity": "epic",
     "faction": "neutral"
   },
   {
     "name": "Villentretenmerth",
     "tags": "Dragon",
     "type": "unit",
-    "strength": 2,
+    "strength": 6,
     "ability": "Lineage.\nTimer 2: Destroy the highest-power unit(s) on the battlefield, excluding Dragons you control.",
     "color": "gold",
     "rarity": "legendary",
@@ -294,7 +294,7 @@
     "tags": "Elf, Mage",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -314,7 +314,7 @@
     "tags": "Witcher",
     "type": "unit",
     "strength": 2,
-    "ability": "Deploy: Destroy the highest power units on an enemy row with a total of 35 or more power.\nInitiative: Destroy the highest power units on an enemy row with a total of 20 or more power instead.",
+    "ability": "Deploy: Destroy the highest power units on an enemy row with a total of 25 or more power.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -327,16 +327,6 @@
     "ability": "Deploy: Damage an enemy unit and all copies of that unit on your opponent's side by 3.",
     "color": "gold",
     "rarity": "legendary",
-    "faction": "neutral"
-  },
-  {
-    "name": "Ornate Censer",
-    "tags": "",
-    "type": "special",
-    "strength": null,
-    "ability": "Swap the power of the highest- and lowest-power unit on the battlefield.",
-    "color": "gold",
-    "rarity": "epic",
     "faction": "neutral"
   },
   {
@@ -384,7 +374,7 @@
     "tags": "Human, Mage, Knight",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"

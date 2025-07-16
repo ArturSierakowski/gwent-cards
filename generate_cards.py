@@ -8,11 +8,11 @@ CARD_WIDTH, CARD_HEIGHT = 1024, 1755
 FRAME_SIZE = (CARD_WIDTH, CARD_HEIGHT)
 MARGIN = 16
 MARGIN_SIDE = 80
-MARGIN_BOTTOM = 96
-LINE_SPACING = 46
+MARGIN_BOTTOM = 100
+LINE_SPACING = 52
 
 # Foldery
-INPUT_JSON = "cards/nilfgaard.json"
+INPUT_JSON = "cards/monsters.json"
 TEMPLATES_DIR = "assets/templates/"
 ICONS_DIR = "assets/icons/"
 ART_DIR = "assets/arts/"

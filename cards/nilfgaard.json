@@ -2,7 +2,7 @@
   {
     "name": "Anna Henrietta",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Spawn and play Buhurt.\nWhenever you boost one or more enemy units during your turn, boost the lowest-power allied unit by 1.",
     "color": "gold",
@@ -10,9 +10,9 @@
     "faction": "nilfgaard"
   },
   {
-    "name": "Moorvran Voorhis",
+    "name": "Morvran Voorhis",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": 7,
     "ability": "Deploy: Draw up to 3 cards, then move the same number of cards back to the top of your deck.",
     "color": "gold",
@@ -22,7 +22,7 @@
   {
     "name": "Ardal Aep Dahy",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Seize an enemy unit with 3 power or less.\nThis value is raised by 1 for every 4 Tactic cards in your starting deck.",
     "color": "gold",
@@ -32,7 +32,7 @@
   {
     "name": "Emhyr var Emreis",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Lock an enemy unit and damage it by 3.\nCharges: 2",
     "color": "gold",
@@ -42,7 +42,7 @@
   {
     "name": "Collar",
     "tags": "",
-    "type": "artifact",
+    "type": "stratagem",
     "strength": null,
     "ability": "Order: Lock an enemy unit and damage it by 3.",
     "color": "gold",
@@ -63,8 +63,8 @@
     "name": "Torres var Emreis",
     "tags": "Human, Cleric, Aristocrat",
     "type": "unit",
-    "strength": 1,
-    "ability": ".\n.\n.",
+    "strength": 4,
+    "ability": "Deploy: Return an allied unit to your hand, excluding self, then play a card.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -215,16 +215,6 @@
     "type": "unit",
     "strength": 3,
     "ability": ".\n.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "nilfgaard"
-  },
-  {
-    "name": "Usurper: General",
-    "tags": "Human, Soldier",
-    "type": "unit",
-    "strength": 6,
-    "ability": "Deploy: Spawn an Operative on each enemy row and give them Spying.\nZeal. Order: Seize all Spying Operatives.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -434,7 +424,7 @@
     "tags": "Human, Soldier",
     "type": "unit",
     "strength": 1,
-    "ability": "Deploy: Play a Tactic from your deck.",
+    "ability": "Deploy (Ranged): Play a Tactic from your deck.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -450,7 +440,7 @@
     "faction": "nilfgaard"
   },
   {
-    "name": "Paulmerin de Launfal",
+    "name": "Palmerin de Launfal",
     "tags": "Human, Knight",
     "type": "unit",
     "strength": 4,
@@ -474,7 +464,7 @@
     "tags": "Spell",
     "type": "special",
     "strength": null,
-    "ability": ".\n.\n.",
+    "ability": "Banish a card from your deck. If it was a bronze, Banish another bronze card from your deck.\nBoost an allied unit by the combined provision cost of Banished cards. Increase the value by 8 if they were bronze cards.",
     "color": "gold",
     "rarity": "epic",
     "faction": "nilfgaard"
@@ -534,7 +524,7 @@
     "tags": "Human, Mage, Agent",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.\n.",
+    "ability": "Move a card in your deck to the top of it. Spawn The Guardian on this row. If it was a special card, Spawn and play a Cow Carcass.,",
     "color": "bronze",
     "rarity": "rare",
     "faction": "nilfgaard"
@@ -555,16 +545,6 @@
     "type": "unit",
     "strength": 3,
     "ability": "Deploy: If your opponent has won a round this game, Spawn and play Battle Preparation.",
-    "color": "bronze",
-    "rarity": "common",
-    "faction": "nilfgaard"
-  },
-  {
-    "name": "Slave Driver",
-    "tags": "Human",
-    "type": "unit",
-    "strength": 3,
-    "ability": ".\n.\n.",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -594,7 +574,7 @@
     "tags": "Human, Soldier",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.\n.",
+    "ability": "Order: Give an enemy unit Bleeding (1). Repeat once on any enemy.\nCooldown: 1",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -654,7 +634,7 @@
     "tags": "Tactic",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Damage an enemy by 4. Increase the damage by 1 for every boost it has (up to additional 4 damage).",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -684,7 +664,7 @@
     "tags": "Human, Soldier",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.\n.",
+    "ability": "Order: Damage an enemy by 1.\nConspiracy: Damage it by 2 instead.\nDeathblow: Refresh the Order ability.\nCooldown: 1",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -694,7 +674,7 @@
     "tags": "Human, Mage, Agent",
     "type": "unit",
     "strength": 5,
-    "ability": ".\n.\n.",
+    "ability": "Deploy: Give Spying to an enemy.\nWhenever an enemy unit gains Spying, damage it by 1.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "nilfgaard"
@@ -740,16 +720,6 @@
     "faction": "nilfgaard"
   },
   {
-    "name": "Standard Bearer",
-    "tags": "Human, Soldier",
-    "type": "unit",
-    "strength": 5,
-    "ability": "Deploy: Boost self by 1 for each boosted enemy unit.\nBoost self by 1 every time an enemy is boosted during your turn.",
-    "color": "bronze",
-    "rarity": "common",
-    "faction": "nilfgaard"
-  },
-  {
     "name": "Alchemist",
     "tags": "Human",
     "type": "unit",
@@ -774,7 +744,7 @@
     "tags": "Human, Soldier",
     "type": "unit",
     "strength": 5,
-    "ability": ".\n.\n.",
+    "ability": "Deploy: Boost self by 1 for each boosted enemy unit.\nBoost self by 1 every time an enemy is boosted during your turn.",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -804,7 +774,7 @@
     "tags": "Machine, Siege Engine",
     "type": "unit",
     "strength": 4,
-    "ability": "Order: Damage a unit by 1.\nCooldown: 1\nWhenever you play a Tactic, decrease Cooldown by 1.",
+    "ability": "Order: Damage a unit by 1.\nCooldown: 1\nWhenever you play a Tactic, decrease the Cooldown by 1.",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"

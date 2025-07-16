@@ -1,10 +1,50 @@
 [
-    {
+  {
     "name": "Urn of Shadows",
     "tags": "",
     "type": "stratagem",
     "strength": null,
-    "ability": "Order: Trigger an allied unit's Deathwish ability.\nIf you targeted a bronze unit repeat the Order once.",
+    "ability": "Order: Trigger an allied unit's Deathwish ability.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Arachas Queen",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Spawn a Drone on an allied row.\nCharges: 5\nWhenever you play an Organic card, Spawn a Drone on a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Unseen Elder",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Destroy an allied unit, then Spawn an Ekimmara on its row and boost it by the destroyed unit's power.\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Auberon: King",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Move an enemy unit to the other row and Spawn Frost on its row for 2 turns.\nCharges: 2\nWhenever you play a Wild Hunt unit, if there's Frost on the opposite row, boost it by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Dettlaff van der Eretein",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Give an enemy unit Bleeding (3).\nCharges: 3\nOnce all Charges are used up, Spawn an Ekimmara on a random allied row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -234,7 +274,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Scenario: Progress whenever you play a unit with Deathwish.\nPrologue: Spawn a Desert Banshee on this row.\nChapter 1: Spawn and play a Barghest.\nChapter 2: Spawn and play a Nightwraith.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -250,7 +290,7 @@
     "faction": "monsters"
   },
   {
-    "name": "Arachas Queen",
+    "name": "Endrega Queen",
     "tags": "Insectoid",
     "type": "unit",
     "strength": 6,
@@ -499,26 +539,6 @@
     "rarity": "rare",
     "faction": "monsters"
   },
-    {
-    "name": "Dettlaff van der Eretein",
-    "tags": "Leader",
-    "type": "artifact",
-    "strength": null,
-    "ability": "Order: Give an enemy unit Bleeding (3).\nCharges: 3\nOnce all Charges are used up, Spawn an Ekimmara on a random allied row.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "monsters"
-  },
-  {
-    "name": "Unseen Elder",
-    "tags": "Leader",
-    "type": "artifact",
-    "strength": null,
-    "ability": "Order: Destroy an allied unit, then Spawn an Ekimmara on its row and boost it by the destroyed unit's power.\nCharges: 2",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "monsters"
-  },
   {
     "name": "Regis: Reborn",
     "tags": "Vampire",
@@ -647,6 +667,246 @@
     "ability": "Give Bleeding (2) to all enemy units on a row.\nSpawn 2 Ekimmaras on the opposite row.",
     "color": "gold",
     "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Hive Mind",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Choose 4 different bronze Kikimore units.\nWhile in your graveyard, the first time you Spawn a Drone on the battlefield each allied turn, transform it into the next chosen Kikimore unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Mourntart",
+    "tags": "Necrophage",
+    "type": "special",
+    "strength": 1,
+    "ability": "Deploy: Banish all units in your graveyard, then boost self by 1 for each.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Koschey",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Thrive.\nWhenever this unit's Thrive is triggered, Spawn a Drone on this row.\nAdrenaline 4: Whenever this unit's Thrive is triggered, Spawn an Endrega Larva on this row instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Yghern",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 16,
+    "ability": "Deploy: Gain Armor equal to the number of cards in your hand.\nIf this unit has no Armor, destroy self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Ozzrel",
+    "tags": "Necrophage",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Melee): Consume a unit from your opponent's graveyard.\nDeploy (Ranged): Consume a unit from your graveyard.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Acid Spit",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": ".\n.\n.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Parasite",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 6, or boost an allied unit by 6.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "monsters"
+  },
+  {
+    "name": "Ghoul",
+    "tags": "Necrophage",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy (Melee): Consume a bronze unit in your graveyard.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kikimore Stalker",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.\n.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Harpy Egg",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deathwish: Spawn a Harpy on this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Griffin",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Deploy: Destroy an allied unit on this row. If there are no targets, destroy self.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Predatory Dive",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Each player destroys their lowest-power unit.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Rotfiend",
+    "tags": "Necrophage",
+    "type": "special",
+    "strength": 4,
+    "ability": "Deathwish: Damage a random enemy unit by 5",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Spontaneous Evolution",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Boost an allied unit by 5 and gain an additional effect based on the unit's category:\nInsectoid - Spawn 3 drones on the boosted unit's row.\nBeast - Boost that unit by 9 instead.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Arachas Nest",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn 5 Drones on an allied row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Drowner",
+    "tags": "Necrophage",
+    "type": "special",
+    "strength": 2,
+    "ability": "Thrive.\nDeploy: Move an enemy unit to the other row and damage it by 3.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Endrega Eggs",
+    "tags": "Insectoid",
+    "type": "unit",
+    "strength": 3,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Forktail",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 5,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Hideous Feast",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 3 and boost an allied unit by 3.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kikimore Hatchling",
+    "tags": "organic",
+    "type": "special",
+    "strength": null,
+    "ability": "",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Kikimore Worker",
+    "tags": "organic",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Whenever you play an Insectoid, gain 1 Armor.\nExposed: Destroy self.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Natural Selection",
+    "tags": "Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 4, then Spawn a Drone on a random allied row for each point of excess damage dealt.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Nightwraith",
+    "tags": "Specter",
+    "type": "unit",
+    "strength": 4,
+    "ability": ".\n.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Wild Hunt Hound",
+    "tags": "Beast, Wild Hunt",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Dominance: At the end of your turn, boost self by 1.",
+    "color": "bronze",
+    "rarity": "common",
     "faction": "monsters"
   }
 ]

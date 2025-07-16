@@ -10,6 +10,186 @@
     "faction": "skellige"
   },
   {
+    "name": "Crach an Craite",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Damage an enemy unit by 2.\nBloodthirst 3: Damage an enemy unit by 3 instead.\nCharges: 4",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svalblod",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Damage an allied unit by 1.\nCharges: 5\nOnce all Charges are used up, Spawn a Bear Abomination on a random allied row.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Eist Tuirseach",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Move a Skellige unit from your deck to your graveyard, then damage an enemy unit by its power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+    {
+    "name": "Bran Tuirseach",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Discard a card, then draw a card.\nOn round start, refresh this ability.\nWhenever you Discard a card, damage a random enemy unit by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Arnjolf the Patricide",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Spawn a Deafening Siren on an enemy row and damage it by 1.\nCharges: 3\nOnce all Charges are used up, Spawn and play Arnjolf the Patricide.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Kaer Trolde",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Resilience.\nDeploy: Create and play a bronze an Craite unit that was not in your starting deck.\nOrder: Give an allied unit 6 Armor, then it Clashes with an enemy unit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Sigvald",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Whenever this unit is damaged by other non-status abilities, gain Bleeding for the same duration instead.\nOrder: Damage a unit by the duration of Bleeding on self, then Purify self. If it was an enemy unit, damage self by that amount. If it was an allied unit, boost self by that amount.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Artis",
+    "tags": "Human, Cultist, Druid",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Deploy: Play a 0-provision Cultist from your deck.\nRanged: Whenever a unit is played, damage it by half its power.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Dracoturtle",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 6,
+    "ability": "Whenever this unit loses Armor, boost it by the amount of Armor lost.\nBarricade: At the end of your turn, gain 1 Armor.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svalblod Totem",
+    "tags": "Location",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Resilience.\nDeploy: Spawn a Svalblod Fanatic on each side of this card.\nOrder: Damage an allied unit by 2.\nCooldown: 1",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Cerys: Fearless",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "After you've dealt damage to allied units 9 times, Summon self from your deck to your Ranged row.\nZeal. Order: Heal an allied unit and damage another allied unit by the amount Healed.\nCooldown: 1",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Vabjorn",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Melee): Play a Raid from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Vildkaarl",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Berserk 2: Transform into Champion of Svalblod.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svalblod Priest",
+    "tags": "Human, Cultist, Druid",
+    "type": "unit",
+    "strength": 3,
+    "ability": "At the end of your turn, damage the unit to the right by 1, then boost self by 2.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Heymaey Protector",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever a unit in this row takes damage, boost self by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svalblod Butcher",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage an allied unit by 2, then damage an enemy by 2 and give it Bleeding (2).\nOrder: Repeat the Deploy ability.\nBerserk 2: Gain Zeal.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svalblod Fanatic",
+    "tags": "Human, Cultist",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Heal an allied Cultist, then damage self by 2.\nBerserk 2: Transform into a Bear Abomination.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Svablod Ravager",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee): Damage an enemy unit by 2 and give it Bleeding (1).\nBloodthirst 2: Repeat the Deploy ability. ",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
     "name": "Blood Eagle",
     "tags": "Raid",
     "type": "special",
@@ -20,7 +200,7 @@
     "faction": "skellige"
   },
   {
-    "name": "Eist Tuirseach",
+    "name": "Hemdall",
     "tags": "Human, Warrior",
     "type": "unit",
     "strength": 4,
@@ -30,13 +210,333 @@
     "faction": "skellige"
   },
   {
-    "name": "Harald an Craite",
-    "tags": "Human, Warrior",
-    "type": "unit",
-    "strength": 6,
-    "ability": "Deploy: Play a bronze Warrior from your graveyard and give it Doomed.\nDevotion: At the start of the third round, evolve to Harald the Cripple.",
+    "name": "Magic Compass",
+    "tags": "",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nLook at the top 3 cards in your deck. Play one, then move the rest to your graveyard. If there are fewer than 3 cards in your deck, Spawn and play a legendary card from your faction that was not in your starting deck instead.",
     "color": "gold",
     "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Sove",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 12,
+    "ability": "Deploy (Melee): Summon a Beast from your deck to the opposite row and give it \"Deathwish: Boost the enemy Sove twice by own base power\", then damage it by 1 for each damaged enemy unit and gain Immunity.\n",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Wild Boar of the Sea",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Melee): Damage all damaged enemy units by 1, then damage all enemy units by 1.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Ulfhedinn",
+    "tags": "Beast, Cursed",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage an enemy unit by half its power.\nBloodthirst 3: Damage an enemy unit and units adjacent to it by half their power instead.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Dagur Two Blades",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Whenever an enemy unit takes damage, boost self by 1.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Olaf",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 11,
+    "ability": "Order: Boost Olaf by twice the amount he is damaged.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Sigrdrifa's Rite",
+    "tags": "Alchemy",
+    "type": "special",
+    "strength": null,
+    "ability": "Summon a Skellige unit from your graveyard to an allied row and give it Doomed.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Ulula",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Order: Damage a unit by 2.\nWhenever an enemy unit takes damage from your Warriors, damage it by 1, ignoring its Armor.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Delirium",
+    "tags": "Alchemy",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nChoose between a random bronze Skellige Beast and a random bronze Skellige Human that were not in your starting deck, then Spawn and play the one you chose, and Spawn the other in your graveyard.\nWhen Doomed, choose between gold ones instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Blueboy Lugos",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Whenever this unit takes damage, damage a random enemy unit by 2.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Champion's Charge",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 5.\nBloodthirst 3: Destroy a unit instead.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Ermion",
+    "tags": "Human, Druid",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Ranged): Play an Alchemy card from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Raiding Fleet",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Give an enemy unit Bleeding (3), then play a random bronze Ship from your deck.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Derran",
+    "tags": "Human",
+    "type": "unit",
+    "strength": 8,
+    "ability": "Deploy: Move up to 2 cards from your deck to your graveyard. Damage self by 3 for each chosen card.\n",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Gigascorpion Decoction",
+    "tags": "Alchemy",
+    "type": "unit",
+    "strength": null,
+    "ability": "Damage a unit by 1 six times.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Heymaey Flaminica",
+    "tags": "Human, Druid",
+    "type": "unit",
+    "strength": 6,
+    "ability": "At the end of your turn, Heal all other units on this row by 1.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Hym",
+    "tags": "Specter",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy (Melee): Swap this unit's power with a damaged unit's power.\nDeploy (Ranged): Drain an enemy unit by 3.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "skellige"
+  },
+  {
+    "name": "Udalryk an Brokvar",
+    "tags": "Human, Cursed, Warrior",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Order (Berserk 8): Set an enemy unit's power to match own power, then heal self.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Restore",
+    "tags": "Alchemy",
+    "type": "special",
+    "strength": null,
+    "ability": "Heal an allied unit, then boost it by the amount it was Healed.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "An Craite Greatsword",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 10,
+    "ability": "Veteran.\nDeploy: Damage self by 6.\nWhenever an enemy unit takes damage, Heal self by 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Feral Bond",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn Skellige Wolves on an enemy row and damage it by 1, then Create a bronze Skellige Warrior that was not in your starting deck.\nBloodthirst 3: You may Spawn and play any bronze Skellige Warrior that was not in your starting deck instead.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Freya's Blessing",
+    "tags": "Alchemy",
+    "type": "special",
+    "strength": null,
+    "ability": "Play a bronze non-Neutral unit from your graveyard and give it Doomed.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Primal Savagery",
+    "tags": "Raid",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 2.\nDeathblow: Also Spawn a Bear Abomination on a random allied row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Raging Bear",
+    "tags": "Beast",
+    "type": "unit",
+    "strength": 9,
+    "ability": "Deploy: Damage an allied unit by 2.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Tuirseach Veteran",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 8,
+    "ability": "Veteran.\nDeploy: Damage self to 5 power.\nBerserk 3: Heal self.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "An Craite Marauder",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Melee): Split 3 damage randomly between all enemy units in a row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Armored Drakkar",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 4,
+    "ability": "At the end of your turn, if Armored Drakkar has no Armor, gain 2 Armor.\nExposed: Boost self by 1.\nBloodthirst 2: Boost by 2 instead.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Dimun Pirate Captain",
+    "tags": "Human, Pirate",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Deploy (Bloodthirst 2): Gain Zeal.\nOrder: Damage a unit by 1, repeat twice on any unit.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Dimun Warship",
+    "tags": "Machine, Ship",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Order: damage self and an enemy unit by 1.\nCooldown: 1\nDeathwish: Summon the highest-power bronze Pirate from your graveyard to this row.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "skellige"
+  },
+  {
+    "name": "Drummond Berserker",
+    "tags": "Human, Cultist, Warrior",
+    "type": "unit",
+    "strength": 5,
+    "ability": "At the end of your turn, damage self and a random enemy unit by 1.\nBerserk 3: Transform into a Bear Abomination.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Heymaey Spearmaiden",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 8,
+    "ability": "Deploy: Spawn Skellige Wolves on an enemy row and damage it by 1, then damage self by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Mardroeme",
+    "tags": "Alchemy",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 3, then boost it by 9.\nIf the targeted unit was transformed, boost it afterwards.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "skellige"
+  },
+  {
+    "name": "Tuirseach Axeman",
+    "tags": "Human, Warrior",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy (Melee): Damage a unit by twice the amount it is already damaged",
+    "color": "bronze",
+    "rarity": "rare",
     "faction": "skellige"
   },
   {
@@ -50,27 +550,17 @@
     "faction": "skellige"
   },
   {
-    "name": "Crach an Craite",
-    "tags": "Human, Pirate, Warrior",
-    "type": "unit",
-    "strength": 7,
-    "ability": "TODO",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "skellige"
-  },
-  {
     "name": "Cerys an Craite",
     "tags": "Human, Warrior",
     "type": "unit",
     "strength": 5,
-    "ability": "",
+    "ability": "Deploy (Melee): Summon a Drummond Shieldmaiden to this row.\nDeploy (Ranged): Summon a Drummond Queensguard to this row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
   },
   {
-    "name": "King Bran",
+    "name": "",
     "tags": "Human, Warrior",
     "type": "unit",
     "strength": 5,
@@ -84,7 +574,7 @@
     "tags": "Human, Pirate, Warrior",
     "type": "unit",
     "strength": 7,
-    "ability": "Veteran.\nDeploy: Damage an enemy unit by its base power.",
+    "ability": "Veteran.\nDeploy: Give an enemy unit Rupture.\nRupture: At the end of owner's turn, damage this unit equal to its base power, then remove this status.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -93,7 +583,7 @@
     "name": "Hjalmar an Craite",
     "tags": "Human, Warrior",
     "type": "unit",
-    "strength": 5,
+    "strength": 4,
     "ability": "Deploy (Melee): Banish a unit in your graveyard and damage an enemy unit by its power.",
     "color": "gold",
     "rarity": "legendary",
@@ -164,7 +654,7 @@
     "tags": "Human, Warrior",
     "type": "unit",
     "strength": 5,
-    "ability": "",
+    "ability": "Order (Berserk 3): Spawn a base copy of self on this row.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "skellige"
@@ -173,8 +663,8 @@
     "name": "Drummond Shieldmaiden",
     "tags": "Human, Warrior",
     "type": "unit",
-    "strength": 5,
-    "ability": "",
+    "strength": 4,
+    "ability": "When this unit takes damage, Summon all copies of self from your deck to this row.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "skellige"
@@ -204,7 +694,7 @@
     "tags": "Human, Warrior",
     "type": "unit",
     "strength": 4,
-    "ability": "Deploy (Ranged): Damage an enemy unit by 1 plus the number of damaged units your opponent controls.",
+    "ability": "Deploy (Ranged): Damage an enemy unit by 1. Increase the damage by the number of damaged units your opponent controls.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "skellige"
@@ -244,7 +734,7 @@
     "tags": "Scenario, Cursed",
     "type": "artifact",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -274,7 +764,7 @@
     "tags": "Human, Cursed, Pirate",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "epic",
     "faction": "skellige"
@@ -284,7 +774,7 @@
     "tags": "Machine, Ship",
     "type": "unit",
     "strength": 5,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "epic",
     "faction": "skellige"
@@ -344,7 +834,7 @@
     "tags": "Beast",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -354,7 +844,7 @@
     "tags": "Human",
     "type": "unit",
     "strength": 6,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -394,7 +884,7 @@
     "tags": "Raid",
     "type": "special",
     "strength": null,
-    "ability": "Play a bronze Skellige Ship from your deck and Spawn a Cataclysm in enemy row for 1 turn.\n",
+    "ability": "Play a bronze Skellige Ship from your graveyard and Spawn a Cataclysm in enemy row for 1 turn.\n",
     "color": "gold",
     "rarity": "epic",
     "faction": "skellige"
@@ -419,7 +909,7 @@
     "rarity": "common",
     "faction": "skellige"
   },
-    {
+  {
     "name": "Whale Harpooner",
     "tags": "Machine, Ship",
     "type": "unit",

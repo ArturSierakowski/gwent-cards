@@ -10,11 +10,101 @@
     "faction": "scoiatael"
   },
   {
+    "name": "Brouver Hoog",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Spawn and play Tempering.\nAll Dwarves in your starting deck get 1 Armor.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Saskia",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Move a unit to the other row. If it's an enemy, damage it by 1; if it's an ally, boost it by 3. Charges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Filavandrel aén Fidháil",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": null,
+    "ability": "Order: Spawn an Elven Deadeye on an allied row.\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+    {
+    "name": "Eithné",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Damage a unit by 1.\nCharges: 3\nOnce all Charges are used up, Spawn and play a Brokilon Sentinel.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Francesca Findabair",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Order: Spawn an Elven Deadeye on an allied row and ...\nAt the start of the round refresh the Order.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Aucwenn",
+    "tags": "Leader",
+    "type": "artifact",
+    "strength": null,
+    "ability": "Symbiosis.\nOrder: Give an allied unit Vitality (2).\nCharges: 3",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Saskia: Commander",
+    "tags": "Dragon, Soldier",
+    "type": "unit",
+    "strength": 4,
+    "ability": "Immunity.\nDeploy: If you have at least 10 different primary categories in your starting deck, Summon a random bronze non-Neutral unit with a primary category that is not on your side of the battlefield from your deck to this row.\nTimer 3: Repeat the Deploy ability and reset the Timer.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "The Heist",
+    "tags": "Tactic",
+    "type": "special",
+    "strength": null,
+    "ability": "Echo.\nSpawn 3 Cargos on an allied row.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "scoiatael"
+  },
+  {
     "name": "Feign Death",
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "",
+    "ability": "Scenario: Progress whenever you play an Elf.\nPrologue: Spawn a Vernossiel's Commando on this row.\nChapter 1: Spawn 2 Elven Deadeyes on this row.\nChapter 2: Spawn and play Waylay.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Telianyn aep Collen",
+    "tags": "Elf, Agent, Bandit",
+    "type": "unit",
+    "strength": 6,
+    "ability": ".\n.\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -23,7 +113,7 @@
     "name": "Riordain",
     "tags": "Elf, Soldier, Bandit",
     "type": "unit",
-    "strength": 5,
+    "strength": 4,
     "ability": "Deploy: If played adjacent to at least one:\nTrap - Play an Elf from your deck.\nElf - Play a Trap from your deck.",
     "color": "gold",
     "rarity": "legendary",
@@ -60,16 +150,6 @@
     "faction": "scoiatael"
   },
   {
-    "name": "Filavandrel aén Fidháil",
-    "tags": "Elf",
-    "type": "unit",
-    "strength": 5,
-    "ability": "",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "scoiatael"
-  },
-  {
     "name": "Iorveth",
     "tags": "Elf, Soldier, Bandit",
     "type": "unit",
@@ -84,7 +164,7 @@
     "tags": "Elf, Bandit",
     "type": "unit",
     "strength": 5,
-    "ability": "",
+    "ability": ".\n.\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -104,7 +184,7 @@
     "tags": "Trap",
     "type": "artifact",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "epic",
     "faction": "scoiatael"
@@ -133,7 +213,7 @@
     "name": "Yaevinn",
     "tags": "Elf",
     "type": "unit",
-    "strength": 3,
+    "strength": 4,
     "ability": "Deploy: Damage an enemy unit by 1 for every other allied Elf unit.",
     "color": "gold",
     "rarity": "epic",
@@ -154,7 +234,7 @@
     "tags": "Tactic",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -174,7 +254,7 @@
     "tags": "Elf, Soldier",
     "type": "unit",
     "strength": 2,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -224,7 +304,7 @@
     "tags": "Elf, Bandit",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -254,7 +334,7 @@
     "tags": "Elf, Soldier",
     "type": "unit",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -283,8 +363,8 @@
     "name": "Figgis Merluzzo",
     "tags": "Dwarf, Soldier",
     "type": "unit",
-    "strength": 5,
-    "ability": "",
+    "strength": 6,
+    "ability": "Deploy: Gain 1 Armor for each Dwarf in your hand.\nBarricade: At the end of your turn, boost all Dwarves with Armor on this row by 1, then lose 1 Armor.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -304,7 +384,7 @@
     "tags": "Dwarf, Soldier",
     "type": "unit",
     "strength": 6,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -314,7 +394,7 @@
     "tags": "Dwarf, Soldier",
     "type": "unit",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -323,8 +403,8 @@
     "name": "Yarpen Zigrin",
     "tags": "Dwarf, Warrior",
     "type": "unit",
-    "strength": null,
-    "ability": "",
+    "strength": 6,
+    "ability": "Deploy: Damage an enemy unit by 4.\nBarricade: At the end of your turn, lose Armor and boost self by that much.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -470,21 +550,11 @@
     "faction": "scoiatael"
   },
   {
-    "name": "Eithné: Mother",
-    "tags": "Dryad",
-    "type": "unit",
-    "strength": 6,
-    "ability": "Deploy: Spawn 2 Young Dryads on this row.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "scoiatael"
-  },
-  {
     "name": "Aglaïs",
     "tags": "Dryad",
     "type": "unit",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -504,7 +574,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -534,7 +604,7 @@
     "tags": "Dryad, Naiad",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "common",
     "faction": "scoiatael"
@@ -544,7 +614,7 @@
     "tags": "Dryad, Naiad",
     "type": "unit",
     "strength": 4,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -594,7 +664,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "gold",
     "rarity": "epic",
     "faction": "scoiatael"
@@ -624,7 +694,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -644,7 +714,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": ".\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"

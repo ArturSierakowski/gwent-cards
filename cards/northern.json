@@ -10,9 +10,9 @@
     "faction": "northern"
   },
   {
-    "name": "Radovid",
+    "name": "Calanthe",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Boost an allied unit by 2 and give it a Shield.\nCharges: 3",
     "color": "gold",
@@ -20,19 +20,19 @@
     "faction": "northern"
   },
   {
-    "name": "Meve",
+    "name": "Queen Meve",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
-    "ability": "Order: Boost an allied unit by 1.\nCharges: 3\nOnce per game, once all Charges are used up, Spawn and play a Lyrian Scytheman.",
+    "ability": "Order: Boost an allied unit by 1.\nCharges: 4\nOnce per game, once all Charges are used up, Spawn and play a Lyrian Scytheman.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "northern"
   },
   {
-    "name": "Demavend",
+    "name": "King Demavend III",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Spawn a Volunteer on an allied row, then reduce the Cooldown of each non-Neutral unit on that row by 1.\nCharges: 3",
     "color": "gold",
@@ -40,9 +40,9 @@
     "faction": "northern"
   },
   {
-    "name": "Foltest",
+    "name": "King Foltest",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Boost an allied unit by 2. If it's a non-Neutral unit, also give it Zeal.\nCharges: 3",
     "color": "gold",
@@ -50,9 +50,9 @@
     "faction": "northern"
   },
   {
-    "name": "Calanthe",
+    "name": "King Radovid",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Order: Spawn a base copy of an allied bronze Soldier on its row and boost both units by 3.",
     "color": "gold",
@@ -100,16 +100,6 @@
     "faction": "northern"
   },
   {
-    "name": "Draug",
-    "tags": "Specter, Cursed, Knight",
-    "type": "unit",
-    "strength": 7,
-    "ability": "Zeal. Order: Transform all Human on an allied row into Kaedweni Revenants without changing their power.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "northern"
-  },
-  {
     "name": "Keira Metz",
     "tags": "Human, Mage",
     "type": "unit",
@@ -135,16 +125,6 @@
     "type": "unit",
     "strength": 1,
     "ability": "Disloyal.\nDeploy: Play the top 2 cards from your deck.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "northern"
-  },
-  {
-    "name": "Viraxas: Outcast",
-    "tags": "Human",
-    "type": "unit",
-    "strength": 7,
-    "ability": "Formation.\nOrder: Reset an allied non-Neutral unit's Order ability and give it Zeal.\nDevotion: At the start of the third round, while in hand or deck, evolve.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "northern"
@@ -261,7 +241,7 @@
   },
   {
     "name": "Vernon Roche",
-    "tags": "Human Soldier",
+    "tags": "Human, Soldier",
     "type": "unit",
     "strength": 3,
     "ability": ".\n.\n.",
@@ -320,7 +300,7 @@
     "faction": "northern"
   },
   {
-    "name": "Queen Meve",
+    "name": "Meve",
     "tags": "Human, Soldier, Aristocrat",
     "type": "unit",
     "strength": 7,
@@ -580,16 +560,6 @@
     "faction": "northern"
   },
   {
-    "name": "",
-    "tags": "Machine, Siege Engine",
-    "type": "unit",
-    "strength": null,
-    "ability": "",
-    "color": "bronze",
-    "rarity": "rare",
-    "faction": "northern"
-  },
-  {
     "name": "Boiling Oil",
     "tags": "Warfare",
     "type": "special",
@@ -782,7 +752,7 @@
   {
     "name": "Kaedweni Knight",
     "tags": "Human, Soldier, Knight",
-    "type": "special",
+    "type": "unit",
     "strength": 5,
     "ability": "When played or Summoned from the deck, boost self by 3.",
     "color": "bronze",
