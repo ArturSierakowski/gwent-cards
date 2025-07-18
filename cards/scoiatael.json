@@ -32,19 +32,9 @@
   {
     "name": "Filavandrel aén Fidháil",
     "tags": "Leader",
-    "type": "leader",
-    "strength": null,
-    "ability": "Order: Spawn an Elven Deadeye on an allied row.\nCharges: 3",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "scoiatael"
-  },
-    {
-    "name": "Eithné",
-    "tags": "Leader",
     "type": "artifact",
     "strength": null,
-    "ability": "Order: Damage a unit by 1.\nCharges: 3\nOnce all Charges are used up, Spawn and play a Brokilon Sentinel.",
+    "ability": "Order: Damage a unit by 1.\nCharges: 3\nOnce all Charges are used up, Spawn and play a Blue Mountain Elite.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -52,17 +42,17 @@
   {
     "name": "Francesca Findabair",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
-    "ability": "Order: Spawn an Elven Deadeye on an allied row and ...\nAt the start of the round refresh the Order.",
+    "ability": "Order: Draw a card, then shuffle a card from your hand back into the deck and Spawn an Elven Deadeye on an allied row. \nAt the start of the round refresh the Order.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
   },
   {
-    "name": "Aucwenn",
+    "name": "Eithné",
     "tags": "Leader",
-    "type": "artifact",
+    "type": "leader",
     "strength": null,
     "ability": "Symbiosis.\nOrder: Give an allied unit Vitality (2).\nCharges: 3",
     "color": "gold",
@@ -104,7 +94,7 @@
     "tags": "Elf, Agent, Bandit",
     "type": "unit",
     "strength": 6,
-    "ability": ".\n.\n.",
+    "ability": "Deploy: Shuffle an allied unit with a provision cost of 10 or less into your deck, then play the top Elf with a Deploy ability from your deck.\nOrder: Spawn and play Backup Plan. If this unit is Doomed, damage an enemy unit by the number of Doomed units you control instead.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -164,7 +154,7 @@
     "tags": "Elf, Bandit",
     "type": "unit",
     "strength": 5,
-    "ability": ".\n.\n.",
+    "ability": "Deploy (Melee): Each allied Elven Deadeye damages a random enemy unit by 2.\nDeploy (Ranged): Spawn 2 Elven Deadeyes on this row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -234,7 +224,7 @@
     "tags": "Tactic",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Damage the last unit played by your opponent by 2 and Create a bronze Scoia'tael Elf with a Deploy ability that was not in your starting deck.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -250,21 +240,11 @@
     "faction": "scoiatael"
   },
   {
-    "name": "Vrihedd Vanguard",
-    "tags": "Elf, Soldier",
-    "type": "unit",
-    "strength": 2,
-    "ability": ".\n.",
-    "color": "bronze",
-    "rarity": "rare",
-    "faction": "scoiatael"
-  },
-  {
     "name": "Dol Blathanna Bowman",
     "tags": "Elf, Soldier",
     "type": "unit",
     "strength": 3,
-    "ability": "Deploy: Damage an enemy unit by 1 for each row that separates it from this unit plus 1.",
+    "ability": "Deploy: Damage an enemy unit by 1. Increase the value by 1 for each row that separates it from this unit.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -304,7 +284,7 @@
     "tags": "Elf, Bandit",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.",
+    "ability": "At the end of your turn, boost self by 1 if you control only Elf units.\nIgnore the condition if you control Vernossiel.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -317,6 +297,16 @@
     "ability": "Deploy: Shuffle a bronze card from your hand into your deck, then draw a bronze card.\nIf the shuffled card was a unit, boost self by its power",
     "color": "bronze",
     "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Vrihedd Vanguard",
+    "tags": "Elf, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Boost all Elves in a row by 1.\nDeception: Activate Vrihedd Vanguard's Deploy ability in the row, where your last card was played",
+    "color": "bronze",
+    "rarity": "rare",
     "faction": "scoiatael"
   },
   {
@@ -604,7 +594,7 @@
     "tags": "Dryad, Naiad",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.",
+    "ability": "Whenever your Symbiosis is triggered, give the unit to the left Vitality (2).\nOrder: Remove all Vitality from an allied unit, then boost self by the same amount.",
     "color": "bronze",
     "rarity": "common",
     "faction": "scoiatael"
@@ -613,8 +603,8 @@
     "name": "Naiad Pondkeeper",
     "tags": "Dryad, Naiad",
     "type": "unit",
-    "strength": 4,
-    "ability": ".\n.",
+    "strength": 5,
+    "ability": "Deploy (Melee): Damage an enemy unit by an allied Wandering Treant's power, then reset the Wandering Treant.\nDeploy (Ranged): Gain Symbiosis.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -664,7 +654,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Choose 2 allied units, then give them Vitality (4) and Spawn a Frog on each side of the chosen units.",
     "color": "gold",
     "rarity": "epic",
     "faction": "scoiatael"
@@ -674,7 +664,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": "Echo.\n",
+    "ability": "Echo.\nChoose one:\nBoost 2 allied units by 4 and give them Veil.\nBoost 2 allied units by 5.\nBoost 2 allied units by 3 and give them Vitality (3).",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
@@ -694,7 +684,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Create and play a bronze Dol Blathanna Elf that was not in your starting deck and boost it by 2.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -714,7 +704,7 @@
     "tags": "Nature",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Damage an enemy unit by 3 and boost 3 adjacent allied units by 1.\nDeathblow: Boost all allied units in a row by 1 instead.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "scoiatael"
@@ -723,8 +713,38 @@
     "name": "Dol Blathanna Bomber",
     "tags": "Elf, Soldier, Agent",
     "type": "unit",
+    "strength": 4,
+    "ability": "Deploy: Damage 2 random enemy units by 2.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Dol Blathanna Archer",
+    "tags": "Elf, Soldier",
+    "type": "unit",
     "strength": 2,
-    "ability": "Deploy: Play a Bomb from your hand, then draw a card.\nWhenever you play a Bomb, damage a random enemy unit by 1.",
+    "ability": "Deploy (Melee): Damage an enemy unit by 3.\nDeploy (Ranged): Damage 2 units by 1.\nDeathblow: Spawn an Elven Deadeye on this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Blue Mountain Elite",
+    "tags": "Elf, Agent",
+    "type": "unit",
+    "strength": 2,
+    "ability": "Deploy: Damage an enemy unit by 2.\nDeathblow: Also Summon all copies of self from your deck to this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "scoiatael"
+  },
+  {
+    "name": "Elven Scout",
+    "tags": "Elf, Agent",
+    "type": "unit",
+    "strength": 3,
+    "ability": "Deploy: Boost self by [0].\nDeception: Increase the boost by 3.",
     "color": "bronze",
     "rarity": "common",
     "faction": "scoiatael"

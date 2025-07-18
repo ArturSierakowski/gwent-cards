@@ -174,7 +174,7 @@
     "tags": "Human, Cultist",
     "type": "unit",
     "strength": 4,
-    "ability": "Deploy: Heal an allied Cultist, then damage self by 2.\nBerserk 2: Transform into a Bear Abomination.",
+    "ability": "Deploy (Bloodthirst 2): Summon all copies of self from your deck to this row.\nBerserk 2: Transform into a Bear Abomination.",
     "color": "bronze",
     "rarity": "common",
     "faction": "skellige"
@@ -663,7 +663,7 @@
     "name": "Drummond Shieldmaiden",
     "tags": "Human, Warrior",
     "type": "unit",
-    "strength": 4,
+    "strength": 5,
     "ability": "When this unit takes damage, Summon all copies of self from your deck to this row.",
     "color": "bronze",
     "rarity": "rare",
@@ -834,7 +834,7 @@
     "tags": "Beast",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.",
+    "ability": "At the end of your turn, if this card is in your graveyard, Discard the rightmost card in your hand and Banish self, then your opponent Discards the rightmost card in their hand.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
