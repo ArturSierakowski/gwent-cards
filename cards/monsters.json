@@ -144,7 +144,7 @@
     "tags": "Elf, Wild Hunt",
     "type": "unit",
     "strength": 4,
-    "ability": "At the end of your turn, if there is Frost on both enemy rows, Summon self to Ranged row.\nDevotion: Once both players have passed, boost self by 2 for each turn of Frost remaining on your opponent's side.",
+    "ability": "At the end of your turn, if there is Frost on both enemy rows, Summon self from your deck to your Ranged row.\nDevotion: Once both players have passed, boost self by 2 for each turn of Frost remaining on your opponent's side.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -274,7 +274,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Summon a bronze Specter from your deck.\nFirst time you play a unit with Deathwish Spawn and play a Barghest.",
+    "ability": "Deploy: Summon a bronze Specter from your deck.\nThe first time you play a unit with Deathwish, Spawn and play a Barghest.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -296,7 +296,7 @@
     "strength": 6,
     "ability": "Deploy: Consume an allied bronze unit.\nOrder: Spawn and play Arachas Nest.\nDeathwish: Summon the Consumed unit from your graveyard to this row.",
     "color": "gold",
-    "rarity": "legendary",
+    "rarity": "epic",
     "faction": "monsters"
   },
   {
@@ -333,8 +333,8 @@
     "name": "Miruna",
     "tags": "Relict",
     "type": "unit",
-    "strength": 4,
-    "ability": "Deathwish: Seize a chosen unit with 4 or less power.",
+    "strength": 6,
+    "ability": "Deathwish: Seize a random enemy unit with 4 or less power.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -454,7 +454,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 4,
-    "ability": "Zeal.\nOrder: Consume an ally. Repeat twice.",
+    "ability": "Zeal. Order: Consume an ally. Repeat twice.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -474,7 +474,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 5,
-    "ability": "Order: Consume an allied unit twice.",
+    "ability": "Order: Consume an allied unit. Repeat once.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -524,7 +524,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 5,
-    "ability": "Deploy: Destroy all enemy units with 1 power.\nOrder: Destroy all allied units with 1 power.\nFor each unit destroyed, boost self by 2.",
+    "ability": "Deploy: Destroy all enemy units with 1 power.\nZeal. Order: Destroy all allied units with 1 power.\nFor each unit destroyed, boost self by 2.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -654,7 +654,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 3,
-    "ability": "",
+    "ability": ".\n.\n.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -684,7 +684,7 @@
     "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": "Give Bleeding (2) to all enemy units on a row.\nSpawn 2 Ekimmaras on the opposite row.",
+    "ability": "Spawn Blood Moon on an enemy row for 5 turns, then Spawn 3 Ekimmaras on the opposite row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -694,7 +694,7 @@
     "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": "Choose 3 different bronze Kikimore units.\nWhile in your graveyard, the first time you Spawn a Drone on the battlefield each allied turn, transform it into the next chosen Kikimore unit.",
+    "ability": "Choose 3 different bronze Kikimore units.\nWhile in your graveyard, the first time you Spawn a Drone on the battlefield each allied turn, Banish it and Summon the next chosen Kikimore unit from your deck in its place.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -717,16 +717,6 @@
     "ability": "Deploy: Gain Armor equal to the number of cards in your hand.\nIf this unit has no Armor, destroy self.",
     "color": "gold",
     "rarity": "legendary",
-    "faction": "monsters"
-  },
-  {
-    "name": "Ozzrel",
-    "tags": "Necrophage",
-    "type": "unit",
-    "strength": 1,
-    "ability": "Deploy (Melee): Consume a unit from your opponent's graveyard.\nDeploy (Ranged): Consume a unit from your graveyard.",
-    "color": "gold",
-    "rarity": "epic",
     "faction": "monsters"
   },
   {
@@ -764,7 +754,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 3,
-    "ability": "Veil.\nZeal. Order (Predator): Damage an enemy unit by 1 or Consume an allied Drone.\nWhenever you Spawn one or more Insectoids, refresh the Order ability.",
+    "ability": "Veil.\nZeal. Order (Predator): Damage an enemy unit by 1 or Consume an allied Drone.\nWhenever you Spawn one or more Insectoids, gain 1 Order charge for the duration of this turn.\nIf the Order is used up, refresh it.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -802,7 +792,7 @@
   {
     "name": "Rotfiend",
     "tags": "Necrophage",
-    "type": "special",
+    "type": "unit",
     "strength": 4,
     "ability": "Deathwish: Damage a random enemy unit by 5",
     "color": "bronze",
@@ -832,7 +822,7 @@
   {
     "name": "Drowner",
     "tags": "Necrophage",
-    "type": "special",
+    "type": "unit",
     "strength": 2,
     "ability": "Thrive.\nDeploy: Move an enemy unit to the other row and damage it by 3.",
     "color": "bronze",

@@ -54,7 +54,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Summon a bronze Aristocrat from your deck to this row.\nFirst time you Play an Aristocrat, Spawn and play Fangs of the Empire.",
+    "ability": "Deploy: Summon a bronze Aristocrat from your deck to this row.\nThe first time you Play an Aristocrat, Spawn and play Fangs of the Empire.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"

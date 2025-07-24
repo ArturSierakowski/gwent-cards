@@ -18,8 +18,17 @@ def create_sheet(images, sheet_index, faction):
     for idx, card in enumerate(images):
         row = idx // CARDS_PER_ROW
         col = idx % CARDS_PER_ROW
-        x = col * CARD_SIZE[0]
-        y = row * CARD_SIZE[1]
+        # Oblicz łączny rozmiar siatki kart
+        grid_width = CARDS_PER_ROW * CARD_SIZE[0]
+        grid_height = CARDS_PER_COL * CARD_SIZE[1]
+
+        # Wyśrodkuj siatkę na arkuszu A4
+        offset_x = (A4_SIZE[0] - grid_width) // 2
+        offset_y = (A4_SIZE[1] - grid_height) // 2
+
+        x = offset_x + col * CARD_SIZE[0]
+        y = offset_y + row * CARD_SIZE[1]
+
         gray_card = card.convert("L").convert("RGB")
         sheet.paste(gray_card.resize(CARD_SIZE, Image.LANCZOS), (x, y))
     sheet_path = os.path.join(OUTPUT_DIR, f"{faction}_sheet_{sheet_index+1}.png")

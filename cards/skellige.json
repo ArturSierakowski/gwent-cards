@@ -744,7 +744,7 @@
     "tags": "Scenario, Cursed",
     "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Summon a bronze Ship from your deck to your Melee row.\nFirst time you play a Pirate, Summon Bjorn's Drakkar to this row.",
+    "ability": "Deploy: Summon a bronze Ship from your deck to your Melee row.\nThe first time you play a Pirate, Summon Bjorn's Drakkar to this row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"

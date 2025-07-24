@@ -114,7 +114,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Summon a bronze Siege Engine from your deck to your Ranged row.\nFirst time you play a Siege Engine, Spawn and play Bombardment.",
+    "ability": "Deploy: Summon a bronze Siege Engine from your deck to your Ranged row.\nThe first time you play a Siege Engine, Spawn and play Bombardment.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "northern"
@@ -634,7 +634,7 @@
     "tags": "Human, Mage",
     "type": "unit",
     "strength": 5,
-    "ability": "Order: Damage an enemy unit by 1.\nWhenever you play a Mage or Spell, gain 1 Order charge.\nIf the Order is used up, refresh it.",
+    "ability": "Order: Damage an enemy unit by 1.\nWhenever you play a Mage or Spell, gain 1 Order charge for the duration of this turn.\nIf the Order is used up, refresh it.",
     "color": "bronze",
     "rarity": "common",
     "faction": "northern"

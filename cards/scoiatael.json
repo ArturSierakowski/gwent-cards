@@ -84,7 +84,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Summon a bronze Elf from your deck to this row.\nFirst time you play an Elf, Spawn and play Waylay.",
+    "ability": "Deploy: Summon a bronze Elf from your deck to this row.\nThe first time you play an Elf, Spawn and play Waylay.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "scoiatael"
