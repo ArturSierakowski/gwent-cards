@@ -39,8 +39,8 @@
     "rarity": "legendary",
     "faction": "skellige"
   },
-    {
-    "name": "Bran Tuirseach",
+  {
+    "name": "King Bran",
     "tags": "Leader",
     "type": "leader",
     "strength": null,
@@ -180,7 +180,7 @@
     "faction": "skellige"
   },
   {
-    "name": "Svablod Ravager",
+    "name": "Svalblod Ravager",
     "tags": "Human, Cultist, Warrior",
     "type": "unit",
     "strength": 3,
@@ -565,16 +565,6 @@
     "type": "unit",
     "strength": 5,
     "ability": "Deploy (Melee): Summon a Drummond Shieldmaiden to this row.\nDeploy (Ranged): Summon a Drummond Queensguard to this row.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "skellige"
-  },
-  {
-    "name": "",
-    "tags": "Human, Warrior",
-    "type": "unit",
-    "strength": 5,
-    "ability": "Veteran.\nDeploy: Boost self by 1 whenever excess damage is dealt to enemy units.\nAt the start of the game, trigger the Veteran ability of your units.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"

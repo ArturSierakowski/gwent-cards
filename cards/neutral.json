@@ -254,7 +254,7 @@
     "tags": "Spell",
     "type": "special",
     "strength": null,
-    "ability": "Echo.\nDamage an enemy unit by the value of the Advantage, then boost the lowest-power allied unit by the excess damage dealt.\nAdvantage:At the end of your turn, if you have more points than your opponent, increase the value by 1, wherever this card is.",
+    "ability": "Echo.\nDamage an enemy unit by the value of the Advantage, then boost the lowest-power allied unit by the excess damage dealt.\nAdvantage: At the end of your turn, if you have more points than your opponent, increase the value by 1, wherever this card is.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -413,7 +413,7 @@
     "name": "Vesemir: Mentor",
     "tags": "Witcher",
     "type": "unit",
-    "strength": null,
+    "strength": 4,
     "ability": ".\n.",
     "color": "gold",
     "rarity": "legendary",
@@ -543,7 +543,7 @@
     "name": "Dorregaray of Vole",
     "tags": "Human, Mage",
     "type": "unit",
-    "strength": null,
+    "strength": 6,
     "ability": "Deploy: Lock a unit.",
     "color": "gold",
     "rarity": "epic",
@@ -622,7 +622,7 @@
   {
     "name": "Epidemic",
     "tags": "Organic",
-    "type": "unit",
+    "type": "special",
     "strength": null,
     "ability": "Choose one:\nDestroy a 0-provision cost unit.\nDestroy a unit with power less or equal 4.",
     "color": "bronze",
@@ -648,6 +648,85 @@
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
+  },
+  {
+    "name": "Sapper",
+    "tags": "Human, Soldier",
+    "type": "unit",
+    "strength": 1,
+    "ability": "Deploy: Play a Bomb from your hand, then draw a card.\nBarricade: Whenever you play a Bomb, damage a random enemy unit by 1.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Dragon's Dream",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Spawn Dragon's Dream on an enemy row for 3 turns.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "neutral"
+  },
+  {
+    "name": "Moon Dust",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Purify a unit and damage it by 4.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Northern Wind",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 4.\nDeathblow: Banish it.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Dancing Star",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 3.\nDeathblow: Damage the unit to the right by 1 less.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Dimeritium Bomb",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 4 and Lock it.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Red Haze",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Choose an enemy unit, then damage one adjacent enemy unit by its power.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
+  },
+  {
+    "name": "Samum",
+    "tags": "Bomb",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage a unit by 4.\nDeathblow: Move the adjacent units to the other row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "neutral"
   }
-
 ]

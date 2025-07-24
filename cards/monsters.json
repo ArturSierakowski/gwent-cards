@@ -20,6 +20,16 @@
     "faction": "monsters"
   },
   {
+    "name": "Woodland Spirit",
+    "tags": "Leader",
+    "type": "leader",
+    "strength": 10,
+    "ability": "Order: Spawn and play Woodland Spirit.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
     "name": "Unseen Elder",
     "tags": "Leader",
     "type": "leader",
@@ -672,7 +682,7 @@
   {
     "name": "Garkain",
     "tags": "Vampire",
-    "type": "special",
+    "type": "unit",
     "strength": 4,
     "ability": "At the end of your turn, if there is a Bleeding enemy unit, boost self by 1.",
     "color": "bronze",
@@ -702,7 +712,7 @@
   {
     "name": "Mourntart",
     "tags": "Necrophage",
-    "type": "special",
+    "type": "unit",
     "strength": 1,
     "ability": "Deploy: Banish all units in your graveyard, then boost self by 1 for each.",
     "color": "gold",

@@ -10,7 +10,7 @@
     "faction": "northern"
   },
   {
-    "name": "Calanthe",
+    "name": "Queen Calanthe",
     "tags": "Leader",
     "type": "leader",
     "strength": null,
@@ -50,7 +50,7 @@
     "faction": "northern"
   },
   {
-    "name": "King Radovid",
+    "name": "King Radovid V",
     "tags": "Leader",
     "type": "leader",
     "strength": null,
@@ -200,7 +200,7 @@
     "faction": "northern"
   },
   {
-    "name": "King Radovid V",
+    "name": "Radovid: Judgment",
     "tags": "Human, Soldier, Aristocrat",
     "type": "unit",
     "strength": 5,

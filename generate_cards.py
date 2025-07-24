@@ -12,7 +12,7 @@ MARGIN_BOTTOM = 112
 LINE_SPACING = 52
 
 # Foldery
-INPUT_JSON = "cards/monsters.json"
+INPUT_JSON = "cards/neutral.json"
 TEMPLATES_DIR = "assets/templates/"
 ICONS_DIR = "assets/icons/"
 ART_DIR = "assets/arts/"
@@ -170,6 +170,7 @@ def draw_type_or_strength(draw, base, card, typebox, typebox_x, typebox_y):
         text_x = typebox_x + (typebox.width - strength_w) // 2
         text_y = typebox_y + (typebox.height - STRENGTH_FONT.size - int(173 * TYPEBOX_SCALE)) // 2
         draw_text_with_outline(draw, (text_x, text_y), strength_text, STRENGTH_FONT, fill="#CCCCCC", outline="black", outline_width=5)
+
     elif card["type"] in ("special", "artifact", "stratagem"):
         icon_path = os.path.join(ICONS_DIR, f"{card['type']}.png")
         if os.path.exists(icon_path):
@@ -179,6 +180,16 @@ def draw_type_or_strength(draw, base, card, typebox, typebox_x, typebox_y):
             if card["type"] == "special":
                 icon_x -= 2
             base.paste(type_icon, (icon_x, icon_y), type_icon)
+
+    elif card["type"] == "leader":
+        icon_name = f"{card['name'].replace(':', '').replace(' ', '_').lower()}.png"
+        leader_icon_path = os.path.join("assets", "leader_icons", icon_name)
+        if os.path.exists(leader_icon_path):
+            leader_icon = Image.open(leader_icon_path).convert("RGBA")
+            leader_icon = leader_icon.resize((int(173 * TYPEBOX_SCALE), int(173 * TYPEBOX_SCALE)), Image.LANCZOS)
+            icon_x = typebox_x + (typebox.width - leader_icon.width) // 2
+            icon_y = typebox_y + (typebox.height - leader_icon.height - int(173 * TYPEBOX_SCALE)) // 2
+            base.paste(leader_icon, (icon_x, icon_y), leader_icon)
 
 def save_card_image(base, card):
     filename = f"{card['name'].replace(':', '').replace(' ', '_').lower()}.png"
