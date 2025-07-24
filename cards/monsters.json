@@ -44,7 +44,7 @@
     "tags": "Leader",
     "type": "leader",
     "strength": null,
-    "ability": "Order: Give an enemy unit Bleeding (3).\nCharges: 3\nOnce all Charges are used up, Spawn an Ekimmara on a random allied row.",
+    "ability": "Order: Give an enemy unit Bleeding (2) and Spawn an Ekimmara in the opposite row.\nCharges: 3",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -102,7 +102,7 @@
   {
     "name": "Ard Gaeth",
     "tags": "WIld Hunt",
-    "type": "artifact",
+    "type": "special",
     "strength": null,
     "ability": "Echo.\nSpawn Frost on both enemy rows for 3 turns.",
     "color": "gold",
@@ -263,8 +263,8 @@
     "name": "Dagon",
     "tags": "Relict",
     "type": "unit",
-    "strength": 8,
-    "ability": ".\n.",
+    "strength": 1,
+    "ability": "Order: Consume an allied unit.\nEvery time you trigger a Deathwish ability, boost self by 1.\nAfter triggering Deathwish of allied units at least 6 times, Summon self from your deck to your Melee row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -274,7 +274,7 @@
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Scenario: Progress whenever you play a unit with Deathwish.\nPrologue: Spawn a Desert Banshee on this row.\nChapter 1: Spawn and play a Barghest.\nChapter 2: Spawn and play a Nightwraith.",
+    "ability": "Deploy: Summon a bronze Specter from your deck.\nFirst time you play a unit with Deathwish Spawn and play a Barghest.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -313,10 +313,20 @@
     "name": "Weavess: Incantation",
     "tags": "Relict",
     "type": "unit",
-    "strength": 3,
-    "ability": "Deploy (Melee): Draw a card, then Discard a card. If the Discarded card was a unit, boost self by its power.",
+    "strength": 2,
+    "ability": "Zeal. Order: Banish a bronze unit from your graveyard and boost self by its power, then Summon a copy of it from your deck to this row.",
     "color": "gold",
     "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Morvudd",
+    "tags": "Relict",
+    "type": "unit",
+    "strength": 1,
+    "ability": "At the end of your turn, while in hand, deck, or graveyard, increase own base power by 1.\n",
+    "color": "gold",
+    "rarity": "epic",
     "faction": "monsters"
   },
   {
@@ -345,6 +355,16 @@
     "type": "special",
     "strength": null,
     "ability": "Play a Deathwish unit from your deck.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "monsters"
+  },
+  {
+    "name": "Lilit's Omen",
+    "tags": "Cursed, Organic",
+    "type": "special",
+    "strength": null,
+    "ability": "Summon 2 non-Neutral units without Veil from your deck to an allied row, then give them Doomed and Rupture.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -403,8 +423,8 @@
     "name": "Endrega Eggs",
     "tags": "Insectoid",
     "type": "unit",
-    "strength": 4,
-    "ability": "Deathwish: Spawn 3 Drones on this row.",
+    "strength": 3,
+    "ability": "Thrive.\nWhenever this unit's Thrive is triggered, Spawn a Drone on this row.\nDeathwish: Spawn 3 Drones on this row.",
     "color": "bronze",
     "rarity": "common",
     "faction": "monsters"
@@ -434,7 +454,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 4,
-    "ability": "Zeal.\nOrder: Consume an ally.\nCharge: 3.",
+    "ability": "Zeal.\nOrder: Consume an ally. Repeat twice.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -454,7 +474,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 5,
-    "ability": "Order: Consume an allied unit.\nCharges: 2",
+    "ability": "Order: Consume an allied unit twice.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -474,7 +494,7 @@
     "tags": "Insectoid, Warrior",
     "type": "unit",
     "strength": 4,
-    "ability": "Deploy: Consume your adjacent units. For each Consumed Insectoid, gain 1 Charge.\nZeal. Order: Spawn a Drone on this row.\nCharge: 1",
+    "ability": "Deploy: Consume your adjacent units. For each Consumed Insectoid, Spawn a Drone on this row.\nZeal. Order: Spawn a Drone on this row.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -494,7 +514,7 @@
     "tags": "Beast",
     "type": "unit",
     "strength": 4,
-    "ability": "Thrive.\nWhenever this unit's Thrive is triggered, boost all allied Insectoids on this row by 1.\nWhenever you play an Organic card, trigger own Thrive.",
+    "ability": "Thrive.\nDeploy: Summon a 0-provision Insectoid from your deck.\nWhenever this unit's Thrive is triggered, boost all allied Insectoids on this row by 1.\nWhenever you play an Organic card, trigger own Thrive.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -504,7 +524,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 5,
-    "ability": "Deploy: Destroy all units with 1 power. For each unit destroyed, boost self by 2",
+    "ability": "Deploy: Destroy all enemy units with 1 power.\nOrder: Destroy all allied units with 1 power.\nFor each unit destroyed, boost self by 2.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -524,7 +544,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 2,
-    "ability": "Thrive.\nDeploy: Spawn a base copy of self on this row.",
+    "ability": "Thrive.\nDeploy: Summon a copy of self to this row.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -554,7 +574,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 6,
-    "ability": "Zeal. Order: Spawn an Ekimmara on this row.\nCooldown: 4\nReduce the Cooldown by 1 whenever Bleeding is applied to an enemy unit.",
+    "ability": "Zeal. Order: Spawn an Ekimmara on this row.\nCooldown: 3\nReduce the Cooldown by 1 whenever Bleeding is applied to an enemy unit.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -584,7 +604,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 4,
-    "ability": ".",
+    "ability": "Drain an enemy by the number of allied Vampires.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -594,7 +614,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 6,
-    "ability": "Deploy (Melee): Give an enemy unit Bleeding (3).\nDeploy (Ranged): Purify a unit.",
+    "ability": "Deploy (Melee): Give an enemy unit Bleeding (4).\nDeploy (Ranged): Purify a unit.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -624,7 +644,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 5,
-    "ability": "Zeal. Order: Give an enemy unit Bleeding (2).\nCooldown: 2\nWhenever you play a Vampire, reduce the Cooldown by 1.",
+    "ability": "Zeal. Order: Give an enemy unit Bleeding (2). If it already bleeds, Drain it by 1 instead.\nCooldown: 2\nWhenever you play a Vampire, reduce the Cooldown by 1.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -634,7 +654,7 @@
     "tags": "Vampire",
     "type": "unit",
     "strength": 3,
-    "ability": ".",
+    "ability": "",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -674,7 +694,7 @@
     "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": "Choose 4 different bronze Kikimore units.\nWhile in your graveyard, the first time you Spawn a Drone on the battlefield each allied turn, transform it into the next chosen Kikimore unit.",
+    "ability": "Choose 3 different bronze Kikimore units.\nWhile in your graveyard, the first time you Spawn a Drone on the battlefield each allied turn, transform it into the next chosen Kikimore unit.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "monsters"
@@ -687,16 +707,6 @@
     "ability": "Deploy: Banish all units in your graveyard, then boost self by 1 for each.",
     "color": "gold",
     "rarity": "epic",
-    "faction": "monsters"
-  },
-  {
-    "name": "Koschey",
-    "tags": "Insectoid",
-    "type": "unit",
-    "strength": 4,
-    "ability": "Thrive.\nWhenever this unit's Thrive is triggered, Spawn a Drone on this row.\nAdrenaline 4: Whenever this unit's Thrive is triggered, Spawn an Endrega Larva on this row instead.",
-    "color": "gold",
-    "rarity": "legendary",
     "faction": "monsters"
   },
   {
@@ -724,7 +734,7 @@
     "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": ".\n.\n.",
+    "ability": "Set an enemy unit's power to 1.",
     "color": "gold",
     "rarity": "epic",
     "faction": "monsters"
@@ -754,7 +764,7 @@
     "tags": "Insectoid",
     "type": "unit",
     "strength": 3,
-    "ability": ".\n.\n.",
+    "ability": "Veil.\nZeal. Order (Predator): Damage an enemy unit by 1 or Consume an allied Drone.\nWhenever you Spawn one or more Insectoids, refresh the Order ability.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "monsters"
@@ -814,7 +824,7 @@
     "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": "Spawn 5 Drones on an allied row.",
+    "ability": "Spawn 4 Drones on an allied row. For every Arachas Nest in your graveyard, Spawn 1 additional Drone.",
     "color": "bronze",
     "rarity": "common",
     "faction": "monsters"
@@ -825,16 +835,6 @@
     "type": "special",
     "strength": 2,
     "ability": "Thrive.\nDeploy: Move an enemy unit to the other row and damage it by 3.",
-    "color": "bronze",
-    "rarity": "common",
-    "faction": "monsters"
-  },
-  {
-    "name": "Endrega Eggs",
-    "tags": "Insectoid",
-    "type": "unit",
-    "strength": 3,
-    "ability": ".\n.",
     "color": "bronze",
     "rarity": "common",
     "faction": "monsters"
@@ -860,18 +860,18 @@
     "faction": "monsters"
   },
   {
-    "name": "Kikimore Hatchling",
-    "tags": "organic",
+    "name": "Lacerate",
+    "tags": "Organic",
     "type": "special",
     "strength": null,
-    "ability": "",
+    "ability": "Damage all enemy units on a row by 1 and give them Bleeding (1). If they were already Bleeding, damage them by 2 instead.",
     "color": "bronze",
     "rarity": "common",
     "faction": "monsters"
   },
   {
     "name": "Kikimore Worker",
-    "tags": "organic",
+    "tags": "Insectoid",
     "type": "unit",
     "strength": 7,
     "ability": "Whenever you play an Insectoid, gain 1 Armor.\nExposed: Destroy self.",
@@ -894,7 +894,17 @@
     "tags": "Specter",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.",
+    "ability": "Deploy: Spawn 2 Rats on this row.\nDeathwish: Spawn 2 Rats on this row.",
+    "color": "bronze",
+    "rarity": "common",
+    "faction": "monsters"
+  },
+  {
+    "name": "Noonwraith",
+    "tags": "Specter",
+    "type": "unit",
+    "strength": 7,
+    "ability": "Deathwish: Spawn 2 Rats on a random enemy row.",
     "color": "bronze",
     "rarity": "common",
     "faction": "monsters"

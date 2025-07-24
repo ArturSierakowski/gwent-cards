@@ -14,7 +14,7 @@
     "tags": "Leader",
     "type": "leader",
     "strength": null,
-    "ability": "Damage an enemy unit by 2.\nBloodthirst 3: Damage an enemy unit by 3 instead.\nCharges: 4",
+    "ability": "Damage an enemy unit by 2.\nBloodthirst 2: Damage an enemy unit by 3 instead.\nCharges: 3",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -355,6 +355,16 @@
     "type": "unit",
     "strength": null,
     "ability": "Damage a unit by 1 six times.",
+    "color": "gold",
+    "rarity": "epic",
+    "faction": "skellige"
+  },
+  {
+    "name": "Offering to the Sea",
+    "tags": "Alchemy",
+    "type": "unit",
+    "strength": null,
+    "ability": "Damage all units on the battlefield by 1, then Spawn a Deafening Siren on a random allied row and boost it by the number of allied targets.",
     "color": "gold",
     "rarity": "epic",
     "faction": "skellige"
@@ -734,7 +744,7 @@
     "tags": "Scenario, Cursed",
     "type": "artifact",
     "strength": null,
-    "ability": ".\n.\n.",
+    "ability": "Deploy: Summon a bronze Ship from your deck to your Melee row.\nFirst time you play a Pirate, Summon Bjorn's Drakkar to this row.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -757,26 +767,6 @@
     "ability": "Deploy: Damage an enemy unit by 1. Repeat until the target is damaged.",
     "color": "gold",
     "rarity": "legendary",
-    "faction": "skellige"
-  },
-  {
-    "name": "Bjorn Stormursson",
-    "tags": "Human, Cursed, Pirate",
-    "type": "unit",
-    "strength": 4,
-    "ability": ".\n.",
-    "color": "gold",
-    "rarity": "epic",
-    "faction": "skellige"
-  },
-  {
-    "name": "Terror of the Seas",
-    "tags": "Machine, Ship",
-    "type": "unit",
-    "strength": 5,
-    "ability": ".\n.",
-    "color": "gold",
-    "rarity": "epic",
     "faction": "skellige"
   },
   {
@@ -844,7 +834,7 @@
     "tags": "Human",
     "type": "unit",
     "strength": 6,
-    "ability": ".\n.",
+    "ability": "Deploy: Draw up to 2 cards, then Discard the same number of cards.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "skellige"
@@ -884,7 +874,7 @@
     "tags": "Raid",
     "type": "special",
     "strength": null,
-    "ability": "Play a bronze Skellige Ship from your graveyard and Spawn a Cataclysm in enemy row for 1 turn.\n",
+    "ability": "Play a bronze Skellige Ship from your graveyard and Spawn a Cataclysm in enemy row for 1 turn.",
     "color": "gold",
     "rarity": "epic",
     "faction": "skellige"

@@ -74,7 +74,7 @@
     "tags": "Witcher",
     "type": "unit",
     "strength": 3,
-    "ability": "Echo.\nDeploy: Boost self by 2.\nEvery time Ciri leaves the battlefield or your hand, increase the boost by 2.",
+    "ability": "Echo.\nDeploy: Boost self by [2].\nEvery time Ciri leaves the battlefield or your hand, increase the boost by 2.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -123,7 +123,7 @@
     "name": "Ihuarraquax",
     "tags": "Relict",
     "type": "unit",
-    "strength": 2,
+    "strength": 4,
     "ability": "Deploy (Melee): Each player Summons the highest-provision cost unit from their deck to their Melee row.\nDeploy (Ranged): Each player Summons the lowest-provision cost unit from their deck to their Ranged row.",
     "color": "gold",
     "rarity": "legendary",
@@ -164,7 +164,7 @@
     "tags": "Human, Cursed, Bandit",
     "type": "unit",
     "strength": 7,
-    "ability": ".",
+    "ability": "Veil.\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -254,7 +254,7 @@
     "tags": "Spell",
     "type": "special",
     "strength": null,
-    "ability": "Echo.\nDamage an enemy unit by the value of the Advantage, then boost the lowest-power allied unit by the excess damage dealt.",
+    "ability": "Echo.\nDamage an enemy unit by the value of the Advantage, then boost the lowest-power allied unit by the excess damage dealt.\nAdvantage:At the end of your turn, if you have more points than your opponent, increase the value by 1, wherever this card is.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -294,7 +294,7 @@
     "tags": "Elf, Mage",
     "type": "unit",
     "strength": 4,
-    "ability": ".\n.",
+    "ability": "Deploy: Spawn and play Biting Frost, Impenetrable Fog, or Torrential Rain, then repeat this choice once.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -363,7 +363,7 @@
     "name": "Triss: Telekinesis",
     "tags": "Human, Mage",
     "type": "unit",
-    "strength": 3,
+    "strength": 4,
     "ability": "Deploy (Ranged): Create and play a bronze special card from either player's starting deck.",
     "color": "gold",
     "rarity": "legendary",
@@ -373,8 +373,8 @@
     "name": "Alzur",
     "tags": "Human, Mage, Knight",
     "type": "unit",
-    "strength": 4,
-    "ability": ".\n.",
+    "strength": 5,
+    "ability": "Deploy: Play an Alzur's thunder from your deck.\nDeathblow: Repeat the Deploy ability.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -401,10 +401,10 @@
   },
   {
     "name": "Land of a Thousand Fables",
-    "tags": "Spell",
-    "type": "special",
+    "tags": "Location",
+    "type": "artifact",
     "strength": null,
-    "ability": "Deploy: Play a special card from your deck.",
+    "ability": "Resilience.\nDeploy: Play a special card from your deck.\nOrder: Transform a special card in your hand into a random unit of the same provision cost from the same faction that was not in your starting deck.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -464,7 +464,7 @@
     "tags": "Human, Mage",
     "type": "unit",
     "strength": 3,
-    "ability": ".\n.",
+    "ability": "Deploy (Ranged): Reveal a top unit from your deck and damage an enemy unit by its power.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -484,7 +484,7 @@
     "tags": "Human, Mage",
     "type": "unit",
     "strength": 3,
-    "ability": ".\n.",
+    "ability": "Deploy (Ranged): Reveal a top unit from your deck, then boost an allied unit by its power.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"
@@ -520,16 +520,6 @@
     "faction": "neutral"
   },
   {
-    "name": "Operator",
-    "tags": "Beast, Mage",
-    "type": "unit",
-    "strength": null,
-    "ability": ".\n.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "neutral"
-  },
-  {
     "name": "Tempest",
     "tags": "Nature",
     "type": "special",
@@ -544,7 +534,7 @@
     "tags": "Tactic, Warfare",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Remove 2 Armor from all units on a row and damage them by 2.",
     "color": "gold",
     "rarity": "epic",
     "faction": "neutral"
@@ -554,7 +544,7 @@
     "tags": "Human, Mage",
     "type": "unit",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Deploy: Lock a unit.",
     "color": "gold",
     "rarity": "epic",
     "faction": "neutral"
@@ -604,7 +594,7 @@
     "tags": "Spell",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Reset an allied unit's power. If it's a bronze unit, replay it instead.",
     "color": "bronze",
     "rarity": "common",
     "faction": "neutral"
@@ -634,7 +624,7 @@
     "tags": "Organic",
     "type": "unit",
     "strength": null,
-    "ability": "Destroy a 0 or 1 provision cost unit.",
+    "ability": "Choose one:\nDestroy a 0-provision cost unit.\nDestroy a unit with power less or equal 4.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "neutral"
@@ -645,6 +635,16 @@
     "type": "unit",
     "strength": 3,
     "ability": "Whenever you play a Bomb, Summon self from your deck or graveyard to random allied row.\nOrder: Spawn Cataclysm on the opposite row for 1 turn, then destroy self.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "neutral"
+  },
+  {
+    "name": "Sihil",
+    "tags": "",
+    "type": "special",
+    "strength": null,
+    "ability": "Damage an enemy unit by 1.\nDeathblow: Play a bronze card from your hand, then move Sihil back to your hand.\nInitiative: Also increase the damage by 1 for the rest of the game.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "neutral"

@@ -1,5 +1,15 @@
 [
   {
+    "name": "Collar",
+    "tags": "",
+    "type": "stratagem",
+    "strength": null,
+    "ability": "Order: Lock an enemy unit and damage it by 4.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
     "name": "Anna Henrietta",
     "tags": "Leader",
     "type": "leader",
@@ -40,21 +50,11 @@
     "faction": "nilfgaard"
   },
   {
-    "name": "Collar",
-    "tags": "",
-    "type": "stratagem",
-    "strength": null,
-    "ability": "Order: Lock an enemy unit and damage it by 3.",
-    "color": "gold",
-    "rarity": "legendary",
-    "faction": "nilfgaard"
-  },
-  {
     "name": "Masquerade Ball",
     "tags": "Scenario",
     "type": "artifact",
     "strength": null,
-    "ability": "Scenario: Progress whenever you play an Aristocrat on your side of the battlefield.\nPrologue: Spawn a Thirsty Dame on this row.\nChapter 1: Spawn and play Fangs of the Empire.\nChapter 2: Spawn and play Fangs of the Empire.",
+    "ability": "Deploy: Summon a bronze Aristocrat from your deck to this row.\nFirst time you Play an Aristocrat, Spawn and play Fangs of the Empire.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -65,6 +65,16 @@
     "type": "unit",
     "strength": 4,
     "ability": "Deploy: Return an allied unit to your hand, excluding self, then play a card.",
+    "color": "gold",
+    "rarity": "legendary",
+    "faction": "nilfgaard"
+  },
+  {
+    "name": "Letho",
+    "tags": "Witcher",
+    "type": "unit",
+    "strength": 1,
+    "ability": ".\n.\n.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -174,7 +184,7 @@
     "tags": "Human, Mage, Agent",
     "type": "unit",
     "strength": 4,
-    "ability": "Deploy: Play a bronze Disloyal unit from your deck.\n.",
+    "ability": "Deploy: Play a bronze Disloyal unit from your deck.\nWhenever you play a Disloyal unit, boost self by 1.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -184,7 +194,7 @@
     "tags": "Tactic",
     "type": "special",
     "strength": null,
-    "ability": "Echo.\nDamage an enemy unit by 3.\nDeathblow: Replay it.\nConspiracy: Damage an enemy unit by 5 instead.",
+    "ability": "Echo.\nDamage an enemy unit by 3.\nDeathblow: Replay it.\nConspiracy: If the enemy unit survived, destroy it instead.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -200,11 +210,11 @@
     "faction": "nilfgaard"
   },
   {
-    "name": "Ivar Evil-Eye",
-    "tags": "Witcher",
+    "name": "Damien de la Tour",
+    "tags": "Human, Soldier, Knight",
     "type": "unit",
     "strength": 5,
-    "ability": "Deploy: Swap this unit's power with an enemy unit.\nAdrenaline 2: Damage an enemy unit by 5 instead.",
+    "ability": "Deploy: Swap this unit's power with an enemy unit.\nIf you have 2 or less cards in your hand, Damage an enemy unit by 5 instead.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -214,7 +224,7 @@
     "tags": "Human",
     "type": "unit",
     "strength": 3,
-    "ability": ".\n.",
+    "ability": "Deploy (Melee): Destroy an enemy unit with 9 or more power.\nDeploy (Ranged): Deal 4 damage to the enemy unit.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -227,16 +237,6 @@
     "ability": "Veil.\nDeploy: Spawn an Operative on each enemy row and give them Spying.\nZeal. Order: Seize all Spying Operatives.\nWhenever an enemy unit gains Spying, boost self by 1.",
     "color": "gold",
     "rarity": "legendary",
-    "faction": "nilfgaard"
-  },
-  {
-    "name": "Operative",
-    "tags": "Human, Token, Agent",
-    "type": "unit",
-    "strength": 3,
-    "ability": "Doomed.",
-    "color": "bronze",
-    "rarity": "common",
     "faction": "nilfgaard"
   },
   {
@@ -314,7 +314,7 @@
     "tags": "Tactic",
     "type": "special",
     "strength": null,
-    "ability": ".\n.",
+    "ability": "Seize an enemy unit with power equal or less than 3.\nIncrease the value by 1 for every Spying unit on your opponent's side of the board.",
     "color": "gold",
     "rarity": "legendary",
     "faction": "nilfgaard"
@@ -414,7 +414,7 @@
     "tags": "Human, Mage",
     "type": "unit",
     "strength": 3,
-    "ability": "Disloyal.\nDeploy: Damage adjacent units by 4.\nConspiracy: Damage a unit by 6 instead. ",
+    "ability": "Disloyal.\nDeploy: Damage adjacent units by 4.\nConspiracy: Damage by 6 instead. ",
     "color": "gold",
     "rarity": "epic",
     "faction": "nilfgaard"
@@ -524,7 +524,7 @@
     "tags": "Human, Mage, Agent",
     "type": "unit",
     "strength": 4,
-    "ability": "Move a card in your deck to the top of it. Spawn The Guardian on this row. If it was a special card, Spawn and play a Cow Carcass.,",
+    "ability": "Move a card in your deck to the top of it. Spawn The Guardian on this row. If it was a special card, Spawn and play a Cow Carcass.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "nilfgaard"
@@ -573,8 +573,8 @@
     "name": "Alba Pikeman",
     "tags": "Human, Soldier",
     "type": "unit",
-    "strength": 4,
-    "ability": "Order: Give an enemy unit Bleeding (1). Repeat once on any enemy.\nCooldown: 1",
+    "strength": 5,
+    "ability": "Order: Give an enemy unit Bleeding (1).\nConspiracy: Give an enemy unit Bleeding (2) instead.\nCooldown: 1",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -654,7 +654,7 @@
     "tags": "Human, Agent",
     "type": "unit",
     "strength": 1,
-    "ability": "Disloyal.\n.\n.",
+    "ability": "Disloyal.\nDeploy: Play the top bronze unit from your opponent's deck.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "nilfgaard"
@@ -724,7 +724,7 @@
     "tags": "Human",
     "type": "unit",
     "strength": 5,
-    "ability": ".\n.",
+    "ability": "Order: Boost an enemy unit by 4, then Play a bronze Tactic from your graveyard.",
     "color": "bronze",
     "rarity": "common",
     "faction": "nilfgaard"
@@ -833,8 +833,8 @@
     "name": "Toussaintois Knight-Errant",
     "tags": "Human, Knight",
     "type": "unit",
-    "strength": 2,
-    "ability": ".\n.",
+    "strength": 3,
+    "ability": "Deploy: Boost an enemy unit by 1, then damage it by 4. If it had at least 6 power before the boost, damage by 6 instead.",
     "color": "bronze",
     "rarity": "rare",
     "faction": "nilfgaard"
