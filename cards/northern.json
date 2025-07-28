@@ -819,6 +819,16 @@
     "rarity": "common",
     "faction": "northern"
   },
+    {
+    "name": "Kerack Frigate",
+    "tags": "Machine, Siege Engine, Ship",
+    "type": "unit",
+    "strength": 5,
+    "ability": "Resupply.\nOrder: Spawn a Volunteer on this row.\nCooldown: 2\nCrew: Set the Cooldown to 1.",
+    "color": "bronze",
+    "rarity": "rare",
+    "faction": "northern"
+  },
   {
     "name": "Lyrian Scytheman",
     "tags": "Human, Soldier",
