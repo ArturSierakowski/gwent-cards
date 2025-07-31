@@ -7,11 +7,11 @@ import glob
 # Stałe
 INPUT_DIR = "output/cards"
 OUTPUT_DIR = "output/print_sheets"
-CARDS_PER_ROW = 2
-CARDS_PER_COL = 2
+CARDS_PER_ROW = 3
+CARDS_PER_COL = 3
 CARDS_PER_PAGE = CARDS_PER_ROW * CARDS_PER_COL
-CARD_SIZE = (551, 945)
-A4_SIZE = (1654, 2339)
+CARD_SIZE = (768, 1157)
+A4_SIZE = (2480, 3508)
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
