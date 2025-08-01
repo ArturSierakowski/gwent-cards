@@ -8,17 +8,18 @@ CARD_WIDTH, CARD_HEIGHT = 1024, 1597
 FRAME_SIZE = (CARD_WIDTH, CARD_HEIGHT)
 MARGIN = 16
 MARGIN_SIDE = 70
-MARGIN_BOTTOM = 60
+MARGIN_BOTTOM = 50
 LINE_SPACING = 52
 
 ARMOR_SIZE = 256
 ORDER_SIZE = 192
-STATUS_SIZE = 192
+STATUS_SIZE = 180
 
 # Foldery
-INPUT_JSON = "cards/tokens.json"
+INPUT_JSON = "cards/monsters.json"
 TEMPLATES_DIR = "assets/templates/"
 ICONS_DIR = "assets/icons/"
+RARITY_DIR = "assets/rarities/"
 ART_DIR = "assets/arts/"
 FONTS_DIR = "assets/fonts/"
 FACTION_NAME = os.path.splitext(INPUT_JSON)[0]
@@ -43,7 +44,7 @@ KEYWORDS = {"order", "spawn", "charges", "armor", "heal", "bleeding", "grace", "
             "banish", "storm", "timer", "echo", "ranged", "spying", "devotion", "clash", "crew", "thrive", "barricade",
             "bloodthirst", "formation", "veteran", "patience", "inspired", "ambush", "spring", "drain", "duel",
             "bonded", "berserk", "dominance", "exposed", "initiative", "resupply", "resurrect", "reveal", "cataclysm",
-            "lineage", "advantage", "conspiracy", "truce", "(melee)", "(ranged)", "dominance", "create"}
+            "lineage", "advantage", "conspiracy", "truce", "melee", "ranged", "dominance", "create", "timer"}
 
 ICONS_ABOVE_NAMEBOX = ["shield", "veil", "disloyal", "immunity", "doomed", "resilience"]
 
@@ -148,7 +149,7 @@ def draw_ability_text(draw, lines, ability_y, dynamic_height):
         for word in words:
             prefix = " " if x > x_start else ""
             test_word = prefix + word
-            color = "#500000" if word.strip(".,:;!?").lower() in KEYWORDS else "black"
+            color = "#500000" if word.strip(".,:;!?()").lower() in KEYWORDS else "black"
             draw.text((x, y_start), test_word, font=ABILITY_FONT, fill=color)
             x += draw.textlength(test_word, font=ABILITY_FONT)
         y_start += LINE_SPACING
@@ -171,11 +172,11 @@ def draw_type_box(base, card):
 
 
 def draw_rarity_icon(base, card, typebox_x, typebox_y):
-    rarity_path = os.path.join(ICONS_DIR, f"{card['rarity']}.png")
+    rarity_path = os.path.join(RARITY_DIR, f"{card['provision']}.png")
     if os.path.exists(rarity_path):
-        RARITY_SCALE = 0.62
-        RARITY_OFFSET_X = 53
-        RARITY_OFFSET_Y = 51
+        RARITY_SCALE = 0.61
+        RARITY_OFFSET_X = 50
+        RARITY_OFFSET_Y = 49
         rarity_icon = Image.open(rarity_path).convert("RGBA")
         rarity_icon = rarity_icon.resize(
             (
@@ -230,10 +231,10 @@ def parse_ability_keywords(ability_text):
         armor_value = int(match.group(1))
         ability_text = ability_text[match.end():].lstrip()
 
-    lowered = ability_text.lower()
-    if lowered.startswith("zeal") and "order" in lowered:
+    if re.search(r"\bZeal\.\s*Order", ability_text, re.IGNORECASE):
         center_icon = "zeal"
-    elif lowered.startswith("order"):
+        ability_text = re.sub(r"\bZeal\.\s*", "", ability_text, flags=re.IGNORECASE)
+    elif re.search(r"\bOrder:", ability_text, re.IGNORECASE):
         center_icon = "order"
 
     for kw in ICONS_ABOVE_NAMEBOX:
@@ -257,7 +258,7 @@ def draw_keyword_icons(base, draw, armor_value, center_icon, status_icons, name_
         text_w = draw.textlength(text, font=ARMOR_FONT)
         text_h = ARMOR_FONT.getbbox(text)[3] - ARMOR_FONT.getbbox(text)[1]
         text_x = armor_x + (ARMOR_SIZE - text_w) // 2
-        text_y = armor_y + (ARMOR_SIZE - text_h) // 2 - 16
+        text_y = armor_y + (ARMOR_SIZE - text_h) // 2 - MARGIN
         draw_text_with_outline(draw, (text_x, text_y), text, ARMOR_FONT, fill="#CCCCCC", outline="black", outline_width=5)
 
     if center_icon:
@@ -265,14 +266,14 @@ def draw_keyword_icons(base, draw, armor_value, center_icon, status_icons, name_
         if os.path.exists(icon_path):
             icon_img = Image.open(icon_path).convert("RGBA").resize((ORDER_SIZE, ORDER_SIZE), Image.LANCZOS)
             icon_x = (CARD_WIDTH - ORDER_SIZE) // 2
-            icon_y = name_y - ORDER_SIZE - MARGIN
+            icon_y = name_y - ORDER_SIZE - 2 * MARGIN
             base.paste(icon_img, (icon_x, icon_y), icon_img)
 
     for i, kw in enumerate(status_icons):
         icon_path = os.path.join(ICONS_DIR, f"{kw}.png")
         if os.path.exists(icon_path):
             icon_img = Image.open(icon_path).convert("RGBA").resize((STATUS_SIZE, STATUS_SIZE), Image.LANCZOS)
-            icon_x = 50
+            icon_x = 60
             icon_y = name_y - ((i + 1) * (STATUS_SIZE + MARGIN_BOTTOM // 2))
             base.paste(icon_img, (icon_x, icon_y), icon_img)
 
