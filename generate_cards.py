@@ -8,15 +8,15 @@ CARD_WIDTH, CARD_HEIGHT = 1024, 1597
 FRAME_SIZE = (CARD_WIDTH, CARD_HEIGHT)
 MARGIN = 16
 MARGIN_SIDE = 70
-MARGIN_BOTTOM = 50
+MARGIN_BOTTOM = 42
 LINE_SPACING = 52
 
 ARMOR_SIZE = 256
-ORDER_SIZE = 192
+ORDER_SIZE = 224
 STATUS_SIZE = 180
 
 # Foldery
-INPUT_JSON = "cards/monsters.json"
+INPUT_JSON = "cards/scoiatael.json"
 TEMPLATES_DIR = "assets/templates/"
 ICONS_DIR = "assets/icons/"
 RARITY_DIR = "assets/rarities/"
@@ -36,17 +36,18 @@ NAME_FONT = ImageFont.truetype(os.path.join(FONTS_DIR, "GWENT-ExtraBold.ttf"), 7
 TAGS_FONT = ImageFont.truetype(os.path.join(FONTS_DIR, "Arial.ttf"), 38)
 STRENGTH_FONT = ImageFont.truetype(os.path.join(FONTS_DIR, "GWENT-ExtraBold.ttf"), 256)
 ARMOR_FONT = ImageFont.truetype(os.path.join(FONTS_DIR, "GWENT-ExtraBold.ttf"), 192)
-ABILITY_FONT = ImageFont.truetype("arial.ttf", 42)
+ABILITY_FONT = ImageFont.truetype("arial.ttf", 46)
 
 KEYWORDS = {"order", "spawn", "charges", "armor", "heal", "bleeding", "grace", "shield", "veil", "seize", "lock",
-            "symbiosis", "vitality", "melee", "rain", "cooldown", "frost", "zeal", "poison", "discard", "deathwish",
+            "symbiosis", "vitality", "rain", "cooldown", "frost", "zeal", "poison", "discard", "deathwish",
             "doomed", "immunity", "resilience", "deploy", "disloyal", "deathblow", "summon", "purify", "predator",
-            "banish", "storm", "timer", "echo", "ranged", "spying", "devotion", "clash", "crew", "thrive", "barricade",
+            "banish", "storm", "timer", "echo", "spying", "devotion", "clash", "crew", "thrive", "barricade",
             "bloodthirst", "formation", "veteran", "patience", "inspired", "ambush", "spring", "drain", "duel",
             "bonded", "berserk", "dominance", "exposed", "initiative", "resupply", "resurrect", "reveal", "cataclysm",
-            "lineage", "advantage", "conspiracy", "truce", "melee", "ranged", "dominance", "create", "timer"}
+            "lineage", "advantage", "conspiracy", "truce", "melee", "ranged", "dominance", "create", "timer",
+            "discarded", "summoned", "banished", "poisoned", "spawned", "common", "rare", "epic", "legendary", "mythic"}
 
-ICONS_ABOVE_NAMEBOX = ["shield", "veil", "disloyal", "immunity", "doomed", "resilience"]
+ICONS_ABOVE_NAMEBOX = ["disloyal", "doomed", "immunity", "resilience", "shield", "veil"]
 
 
 def normalize(name):
@@ -273,8 +274,8 @@ def draw_keyword_icons(base, draw, armor_value, center_icon, status_icons, name_
         icon_path = os.path.join(ICONS_DIR, f"{kw}.png")
         if os.path.exists(icon_path):
             icon_img = Image.open(icon_path).convert("RGBA").resize((STATUS_SIZE, STATUS_SIZE), Image.LANCZOS)
-            icon_x = 60
-            icon_y = name_y - ((i + 1) * (STATUS_SIZE + MARGIN_BOTTOM // 2))
+            icon_x = 64
+            icon_y = name_y - ((i + 1) * (STATUS_SIZE + MARGIN_BOTTOM))
             base.paste(icon_img, (icon_x, icon_y), icon_img)
 
 

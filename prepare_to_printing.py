@@ -67,8 +67,7 @@ def create_sheet(images, sheet_index, faction):
         x = offset_x + col * CARD_SIZE[0]
         y = offset_y + row * CARD_SIZE[1]
 
-        gray_card = card.convert("L").convert("RGB")
-        sheet.paste(gray_card.resize(CARD_SIZE, Image.LANCZOS), (x, y))
+        sheet.paste(card.resize(CARD_SIZE, Image.LANCZOS), (x, y))
 
     sheet_path = os.path.join(OUTPUT_DIR, f"{faction}_sheet_{sheet_index+1}.png")
     sheet.save(sheet_path)
@@ -89,7 +88,7 @@ def save_all_sheets_as_pdf(output_dir, output_pdf_path):
         print("Brak plików PNG do połączenia.")
         return
 
-    images = [Image.open(p).convert("RGB") for p in image_paths]
+    images = [Image.open(p).convert("RGB") for p in image_paths]  # ← zostaje RGB
     first_image, rest_images = images[0], images[1:]
     first_image.save(output_pdf_path, save_all=True, append_images=rest_images)
     print(f"Zapisano PDF: {output_pdf_path}")
